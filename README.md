@@ -1,1 +1,1 @@
-El repositorio que necesitas para aprender todos los fundamentos de Python 🐍
+El repositorio que necesitas para aprender todos los fundamentos de Python, tambien poder ir mas aya de eso. 🐍
