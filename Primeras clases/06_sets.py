@@ -26,7 +26,7 @@ print(my_other_set)
 # Búsqueda
 
 print("Andres" in my_other_set)
-print("Andres" in my_other_set)
+print("Andris" in my_other_set)
 
 # Eliminación
 
