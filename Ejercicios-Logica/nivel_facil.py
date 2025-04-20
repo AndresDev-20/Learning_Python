@@ -48,5 +48,3 @@ print("- Resapuesta del ejercicio 6: " + res_upper_empresa)
 res_lower_empresa = res_upper_empresa.lower()
 print("- Respuesta del ejercicio 7: " + res_lower_empresa)
 
-
-#8. Utilice los métodos capitalize(), title(), swapcase() para formatear el valor de la cadena Coding For All.
