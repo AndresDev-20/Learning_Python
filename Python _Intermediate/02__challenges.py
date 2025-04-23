@@ -66,3 +66,53 @@ def fibonacci():
         next = fib
 
 fibonacci()
+
+
+# 4)
+"""
+Escribe un programa que se encargue de comprobar si un número es o no primo.
+Hecho esto, imprime los números primos entre 1 y 100.
+"""
+
+def number_primo(n):
+     if n < 2:
+        return False
+     
+     for index in range(2, n):
+        if n % index == 0:
+            return False
+        
+     return True
+    
+print(number_primo(4))
+
+
+
+# 5)
+"""
+Crea un programa que invierta el orden de una cadena de texto
+sin usar funciones propias del lenguaje que lo hagan de forma automática.
+ - Si le pasamos "Hola mundo" nos retornaría "odnum aloH"
+"""
+#Primera forma:
+def reverce(text):
+    text_len = len(text)
+    res_text = ""
+    for index in range(0, text_len):
+        res_text += text[text_len - index -1]
+
+    return res_text
+
+print(reverce("Hello world"))
+
+
+#Segunda forma:
+def my_reverce_string(str):
+    list_str = list(str)
+    res = ""
+    for index in reversed(list_str):
+        res += index
+    
+    return res
+
+print(my_reverce_string("Hola Andres"))
