@@ -1,0 +1,112 @@
+<div class="container" id="tema_1">
+    <div class="header-ecored">
+        <h1>1. Proceso de instalación de Python </h1>
+    </div>
+    <div class="jumbotron bg-white">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="card card-bg-color">
+                    <div class="card-body mb-0">
+                        <div class="row">
+                            <div class="col-auto">
+                                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"><a class="text-center nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Paso 1</a><a class="text-center nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Paso 2</a><a class="text-center nav-link" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">Paso 3</a><a class="text-center nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-" aria-selected="false">Paso 4</a></div>
+                            </div>
+                            <div class="col">
+                                <div class="tab-content" id="v-pills-tabContent">
+                                    <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab"><img src="assets/images/pages/tema_1/tabs_01.png" alt="" style="width:100%" />
+                                        <div class="jumbotron bg-white mt-3 mb-0">
+                                            <p class="mb-0">Para realizar el proceso de instalación es necesario ir al sitio oficial de Python (<a href="http://www.python.org" target="_blank">http://www.python.org)</a> y descargar el instalador ejecutable en el menú superior: la opción <i>Downloads.</i> </p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab"><img src="assets/images/pages/tema_1/tabs_02.png" alt="" style="width:100%" />
+                                        <div class="jumbotron bg-white mt-3 mb-0">
+                                            <p class="mb-0">Una vez descargado, iniciar la instalación ejecutando el archivo con doble clic.</p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab"><img src="assets/images/pages/tema_1/tabs_03.png" alt="" style="width:100%" />
+                                        <div class="jumbotron bg-white mt-3 mb-0">
+                                            <p class="mb-0">Para comprobar Python, acceder a la línea de comandos de Windows, ejecutando el programa cmd.exe </p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab"><img src="assets/images/pages/tema_1/tabs_04.png" alt="" style="width:100%" />
+                                        <div class="jumbotron bg-white mt-3 mb-0">
+                                            <p class="mb-0">Después, escribir "python" y ENTER para iniciar el entorno interactivo de Python e introducir comandos. Salir con el comando quit() o CTRL-Z. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron bg-white">
+        <div class="row">
+            <div class="col-12">
+                <div class="header-ecored mt-3" id="tema1_1">
+                    <h2>1.1 Comentarios en Python </h2>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mb-5">
+            <div class="col-12 mb-5">
+                <p>Un comentario es una línea de texto no ejecutable, esto quiere decir que el compilador o intérprete no la tomará como una línea de código.</p>
+                <p>Es una buena práctica en programación documentar el código para mayor claridad en un proyecto. Se pueden hacer comentarios en Python para dar pequeñas explicaciones acerca de lo que hace el programa. Se pueden usar tantos comentarios como sean necesarios. </p>
+                <p class="mt-5">Hay dos formas para hacer comentarios:</p>
+                <div class="list">
+                    <div class="list__item">
+                        <div class="list__item__bulletNumber"><span>1 </span></div>
+                    </div>
+                    <div class="list__txt">
+                        <p>Digitando el símbolo # al comienzo del comentario. </p>
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="list__item">
+                        <div class="list__item__bulletNumber"><span>2 </span></div>
+                    </div>
+                    <div class="list__txt">
+                        <p>Digitando triple comilla (“) al principio y al final del comentario, cuando ocupan varias líneas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="console">
+                    <p>Ejemplo</p>
+                    <p class="cl-gray"># Autor: Pepito Pérez</p>
+                    <p class="cl-gray"># Ciudad: Bogotá</p>
+                    <p class="cl-gray">>>> x=0</p>
+                    <p class="cl-gray">>>> y=8 # Los omentarios también pueden estar dentro de una línea</p>
+                    <p class="cl-gray">""" Este es un comentario multilínea.<br>Podemos escribir varias líneas sucesivamente en la documentación"""</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron bg-white">
+        <div class="row">
+            <div class="col-12">
+                <div class="header-ecored mt-3" id="tema1_2">
+                    <h2>1.2 Errores de tecleo y excepciones</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p>Si se digita incorrectamente una expresión, Python nos lo indicará con un mensaje de error. El mensaje de error proporciona información acerca del tipo de error cometido y del lugar en el que este ha sido detectado. </p>
+            </div>
+            <div class="col-12 my-5">
+                <div class="console">
+                    <p>Ejemplo</p>
+                    <p class="cl-gray">>>> 1+2</p>
+                    <p class="cl-gray">File &quot;&lt;stdin&gt;&quot;, line 1 </br> 1 + 2)</br> ^</p>
+                    <p class="cl-gray">SyntaxError: unmatched ')'</p>
+                </div>
+            </div>
+            <div class="col-12">
+                <p>En este ejemplo se ha cerrado un paréntesis cuando no había otro abierto previamente, lo cual es incorrecto. Python indica que ha detectado un error de sintaxis (SyntaxError) y señala con el carácter ^ al lugar en el que se encuentra.</p>
+                <p>En Python los errores se denominan excepciones. Cuando Python es incapaz de analizar una expresión, produce una excepción. Cuando el intérprete interactivo detecta la excepción, nos muestra por pantalla un mensaje de error.</p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>Términos asociados al tipo de datos</title>
+        <meta meta name="description" content="Equipo de Ecosistema de recursos educativos SENA encargado del desarrollo y rediseño de cursos virtuales de aprendizaje para el SENA.">
+        <link rel="icon" type="image/svg+xml" href="assets/images/logos/senaLogo.svg">
+        <link rel="stylesheet" href="assets/fonts/feather/feather.css">
+        <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.css">
+        <link href="assets/css/fancybox.css" rel="stylesheet">
+        <link href="assets/css/animate.css" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body class="theme-dark page-header-textura" id="page-home">
+        <header class="curso-presentacion page-header" id="CursoPresentacion">
+            <div class="page-textura">
+                <div class="container">
+                    <div class="curso-topbar justify-content-center justify-content-md-between"><a class="curso-topbar__logo"><svg xmlns="http://www.w3.org/2000/svg" width="168.273" height="164.177" viewBox="0 0 168.273 164.177">
+                                <path id="SENA_LOGO" data-name="SENA LOGO" d="M85.349,1a18.09,18.09,0,1,0,18.09,18.09h0A18.1,18.1,0,0,0,85.349,1ZM25.617,42.983a33.722,33.722,0,0,0-9.386,1.024,11.156,11.156,0,0,0-5.12,2.56A5.346,5.346,0,0,0,10.086,52.2c.683,1.707,2.56,2.9,4.608,3.584,4.437,1.536,9.386,1.877,13.994,2.731a5.1,5.1,0,0,1,2.389,1.024,1.369,1.369,0,0,1-.683,2.048,9.146,9.146,0,0,1-5.291.683A8.354,8.354,0,0,1,20.5,61.244a1.962,1.962,0,0,1-.853-2.389H9.233A7.663,7.663,0,0,0,10.6,63.463a7.59,7.59,0,0,0,4.267,2.389A28.541,28.541,0,0,0,23.4,66.876,52.426,52.426,0,0,0,35,66.023a11.043,11.043,0,0,0,5.8-2.9,5.358,5.358,0,0,0-1.365-8.533,21.267,21.267,0,0,0-5.8-2.048c-3.072-.683-5.973-1.024-9.045-1.536a9.114,9.114,0,0,1-3.072-.853,1.226,1.226,0,0,1,0-2.219,9.369,9.369,0,0,1,4.437-.683,10.554,10.554,0,0,1,4.608.853A1.877,1.877,0,0,1,31.59,49.81h9.9a5.669,5.669,0,0,0-1.195-3.584A8.875,8.875,0,0,0,35.515,43.5c-3.584-.341-6.827-.512-9.9-.512Zm21.333.683V67.217H75.792V62.1H57.531V57.489H73.744V52.54H57.531V48.786H75.109v-5.12Zm47.615,0H81.253V67.217H91.322V51.346l13.824,15.872h13.824V43.666H108.9v15.7Zm42.495,0L120.676,67.217h10.581l2.56-4.267H150.2l2.389,4.267h11.776l-15.53-23.551ZM142.35,49.3l5.12,8.533h-10.41ZM.7,74.044l.171,12.8L49,86.673c2.389.512,3.925,2.048,3.413,5.8l-29.7,51.711,9.557,9.045L78.01,74.044Zm91.646,0L137.4,152.89l9.9-8.874L117.433,92.3c-.512-3.584.853-5.291,3.413-5.8l48.127.171V74.044ZM84.837,87.185,42.512,159.546l11.264,5.461,28.159-47.615a4.283,4.283,0,0,1,2.9-1.195,4.681,4.681,0,0,1,3.072,1.195l28.159,47.786,11.605-5.973Z" transform="translate(-0.7 -1)" fill="#FF6B00" />
+                            </svg>
+                        </a><a class="curso-topbar__menubar collapsed btn-menu-responsive d-none" data-toggle="collapse" href="#curso-topbar__nav" aria-expanded="false"><span></span><span></span><span></span></a>
+                        <nav class="curso-topbar__nav collapse show d-none d-md-block" id="curso-topbar__nav">
+                            <ul class="curso-topbar__list">
+                                <li class="curso-topbar__item"><a class="curso-topbar__link" href="#ResultadosAprendizaje"><span class="text-white">Resultados de aprendizaje</span></a></li>
+                                <li class="curso-topbar__item"><a class="curso-topbar__link" href="#IndiceTematico"><span class="text-white">Contenidos</span></a></li>
+                                <li class="curso-topbar__item"><a class="curso-topbar__link" href="#Creditos"><span class="text-white">Créditos</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="curso-portada">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-6">
+                                <h3 class="curso-subtitulo" id="curso-titulo-componente">Variables y estructuras de control en python </h3>
+                                <h1 class="curso-titulo" id="curso-titulo-tema">Términos asociados al tipo de datos</h1>
+                                <div class="brand-line-primary"></div>
+                                <p class="curso-descripcion">El lenguaje de programación Python es uno de los más utilizados actualmente en el mercado laboral, permitiendo así incrementar puestos de trabajo para programadores. </p>
+                                <p class="curso-descripcion">El aprendiz aprenderá a identificar los diferentes tipos de datos y su almacenamiento en variables: datos enteros, <i>float</i>, cadenas, listas, booleanos, conjuntos y tuplas. Además, desarrollará habilidades para realizar conversiones entre diferentes tipos de datos.</p>
+                            </div>
+                            <div class="col-12 col-lg-6 text-center">
+                                <div class="d-none d-lg-block"><img class="curso-imagen" src="assets/images/header/header_media.svg" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="curso-resultados section bg-base-light" id="ResultadosAprendizaje">
+            <div class="container">
+                <h2> Resultados de <br>aprendizaje</h2>
+                <div class="brand-line-primary"></div>
+                <div class="card resultado-item">
+                    <div class="card-body">
+                        <h5><strong>Cod. 220501096-1</strong></h5>
+                        <p class="mb-0">Definir las variables a utilizar de acuerdo con el tipo de dato que deben contener.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="curso-indice-tematico section" id="IndiceTematico">
+            <div class="container">
+                <h2>Desarrollo de <br>contenidos</h2>
+                <div class="brand-line-primary"></div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-10">
+                        <div class="card wow flipInX" data-wow-delay=".4s">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush list my-n3 nav-temas">
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-file-text-o"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#introduccion">Introducción</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#introduccion">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">1</span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#tema-1">Proceso de instalación de Python</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#tema-1">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold">2</span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#tema-2">Tipos de datos</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#tema-2">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-question"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#evaluacion">Actividad didáctica</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#evaluacion">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-sort-alpha-asc"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#glosario">Glosario</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#glosario">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-folder-open"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#anexos">Material complementario</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#anexos">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item nav-tema-item">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <div class="avatar avatar-sm"><span class="nav-tema-item__icon avatar-title font-size-lg bg-secondary-soft rounded-circle text-primary font-weight-bold"> <i class="fa fa-book"></i></span></div>
+                                            </div>
+                                            <div class="col ml-n2"><span class="nav-tema-item__titulo"> <a href="#referencias">Referencias bibliográficas</a></span></div>
+                                            <div class="col-auto"> <a class="btn btn-light nav-tema-item__btn" href="#referencias">Ver más</a></div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="mainContent">
+            <div id="introduccion">
+                <div class="container" id="page-introduccion">
+                    <div class="header-ecored">
+                        <h1>Introducción</h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-8 my-5"><img src="assets/images/pages/tema_1/introduccion.svg" alt="" style="width:100%"></div>
+                            <div class="col-12">
+                                <p>Python es un lenguaje de programación de uso libre, permite crear sitios web, juegos, software científico, gráficos, entre otros, siendo uno de los lenguajes más utilizados hoy en la industria desarrolladora.</p>
+                                <p>Creado a finales de 1989 en los países bajos por Guido Van Rossum, quien fue desarrollador de Google y ahora desarrollador de Dropbox, dicho lenguaje de programación hace parte de CWI (Centro de investigaciones holandés de carácter oficial).</p>
+                                <p>Hinojosa (2016) menciona que el nombre "Python" viene dado por la afición de Van Rossum al grupo musical Monty Python Flying Circus, un grupo cómico británico de seis humoristas de los años 1960. Actualmente el logo de Python son dos serpientes pitón (python en inglés) en colores azul y amarillo, ver figura 1.</p>
+                            </div>
+                            <div class="col-12 col-lg-9 my-5"><img src="assets/images/pages/tema_1/python_logo.svg" alt="" style="width:100%">
+                                <p class="text-center"><i>Figura 1. Logo actual de Python</i></p>
+                            </div>
+                            <div class="col-12">
+                                <p>En 1991 se publicó la versión 0.9.0. En 1994 se publicó la versión 1.0, en el 2000 se publicó la versión 2.0 y en el 2008 se publicó la versión 3.0.</p>
+                                <p>Desde 2001 hasta 2018, la Python Software Foundation, es dueña de todo el código, documentación y especificaciones del lenguaje. Después del 2019, el desarrollo de Python está dirigido por un consejo de dirección de cinco miembros elegidos entre los desarrolladores de Python.</p>
+                                <p>La Figura 2 presenta la fecha de publicación de las diferentes versiones de Python. Las versiones con punto rojo se consideran obsoletas, las versiones con punto azul se encuentran en actualizaciones y las versiones con punto blanco corresponden a futuras versiones. </p>
+                                <div class="col-12 my-5"><img src="assets/images/pages/tema_1/versiones.svg" alt="" style="width:100%">
+                                    <p class="text-center mb-4"><i>Figura 2. Versiones del lenguaje Python</i></p>
+                                </div>
+                                <div class="col-12 mb-5">
+                                    <p>Python es un lenguaje de programación interpretado, por lo que funciona en cualquier sistema operativo que integre su interpretador.</p>
+                                    <p>Dicho lenguaje es multiplataforma y multiparadigma, sirve para desarrollar aplicaciones web o móviles. Este lenguaje de programación dispone de frameworks que apoyan el desarrollo de juegos y algoritmos científicos de cálculos avanzados. Además, es una herramienta conveniente para el área de Machine Learning.</p>
+                                    <p>Este lenguaje cuenta con una gran calidad en su sintaxis, utiliza bloques de código, los cuales llevan indentaciones, lo que garantiza una gran legibilidad en el código fuente. El código de Python 2.x no necesariamente debe correr en Python 3.0.</p>
+                                </div>
+                                <div class="col-12">
+                                    <div class="console">
+                                        <p class="cl-gray"># Ejemplo</p>
+                                        <p class="cl-gray">----------------------------------</p>
+                                        <p>Python 3.x</p>
+                                        <p class="cl-green">print (“Hola Mundo”)</p>
+                                        <p class="cl-gray">----------------------------------</p>
+                                        <p>Python 2.x</p>
+                                        <p class="cl-green">print "Hola mundo"</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tema-1">
+                <div class="container" id="tema_1">
+                    <div class="header-ecored">
+                        <h1>1. Proceso de instalación de Python </h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <div class="row justify-content-center">
+                            <div class="col-12">
+                                <div class="card card-bg-color">
+                                    <div class="card-body mb-0">
+                                        <div class="row">
+                                            <div class="col-auto">
+                                                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical"><a class="text-center nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1" role="tab" aria-controls="v-pills-1" aria-selected="true">Paso 1</a><a class="text-center nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Paso 2</a><a class="text-center nav-link" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab" aria-controls="v-pills-3" aria-selected="false">Paso 3</a><a class="text-center nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab" aria-controls="v-pills-" aria-selected="false">Paso 4</a></div>
+                                            </div>
+                                            <div class="col">
+                                                <div class="tab-content" id="v-pills-tabContent">
+                                                    <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab"><img src="assets/images/pages/tema_1/tabs_01.png" alt="" style="width:100%">
+                                                        <div class="jumbotron bg-white mt-3 mb-0">
+                                                            <p class="mb-0">Para realizar el proceso de instalación es necesario ir al sitio oficial de Python (<a href="http://www.python.org" target="_blank">http://www.python.org)</a> y descargar el instalador ejecutable en el menú superior: la opción <i>Downloads.</i> </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab"><img src="assets/images/pages/tema_1/tabs_02.png" alt="" style="width:100%">
+                                                        <div class="jumbotron bg-white mt-3 mb-0">
+                                                            <p class="mb-0">Una vez descargado, iniciar la instalación ejecutando el archivo con doble clic.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-3-tab"><img src="assets/images/pages/tema_1/tabs_03.png" alt="" style="width:100%">
+                                                        <div class="jumbotron bg-white mt-3 mb-0">
+                                                            <p class="mb-0">Para comprobar Python, acceder a la línea de comandos de Windows, ejecutando el programa cmd.exe </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-4-tab"><img src="assets/images/pages/tema_1/tabs_04.png" alt="" style="width:100%">
+                                                        <div class="jumbotron bg-white mt-3 mb-0">
+                                                            <p class="mb-0">Después, escribir "python" y ENTER para iniciar el entorno interactivo de Python e introducir comandos. Salir con el comando quit() o CTRL-Z. </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="header-ecored mt-3" id="tema1_1">
+                                    <h2>1.1 Comentarios en Python </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center mb-5">
+                            <div class="col-12 mb-5">
+                                <p>Un comentario es una línea de texto no ejecutable, esto quiere decir que el compilador o intérprete no la tomará como una línea de código.</p>
+                                <p>Es una buena práctica en programación documentar el código para mayor claridad en un proyecto. Se pueden hacer comentarios en Python para dar pequeñas explicaciones acerca de lo que hace el programa. Se pueden usar tantos comentarios como sean necesarios. </p>
+                                <p class="mt-5">Hay dos formas para hacer comentarios:</p>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__bulletNumber"><span>1 </span></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p>Digitando el símbolo # al comienzo del comentario. </p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__bulletNumber"><span>2 </span></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p>Digitando triple comilla (“) al principio y al final del comentario, cuando ocupan varias líneas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="console">
+                                    <p>Ejemplo</p>
+                                    <p class="cl-gray"># Autor: Pepito Pérez</p>
+                                    <p class="cl-gray"># Ciudad: Bogotá</p>
+                                    <p class="cl-gray">>>> x=0</p>
+                                    <p class="cl-gray">>>> y=8 # Los omentarios también pueden estar dentro de una línea</p>
+                                    <p class="cl-gray">""" Este es un comentario multilínea.<br>Podemos escribir varias líneas sucesivamente en la documentación"""</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="header-ecored mt-3" id="tema1_2">
+                                    <h2>1.2 Errores de tecleo y excepciones</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <p>Si se digita incorrectamente una expresión, Python nos lo indicará con un mensaje de error. El mensaje de error proporciona información acerca del tipo de error cometido y del lugar en el que este ha sido detectado. </p>
+                            </div>
+                            <div class="col-12 my-5">
+                                <div class="console">
+                                    <p>Ejemplo</p>
+                                    <p class="cl-gray">>>> 1+2</p>
+                                    <p class="cl-gray">File &quot;&lt;stdin&gt;&quot;, line 1 </br> 1 + 2)</br> ^</p>
+                                    <p class="cl-gray">SyntaxError: unmatched ')'</p>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <p>En este ejemplo se ha cerrado un paréntesis cuando no había otro abierto previamente, lo cual es incorrecto. Python indica que ha detectado un error de sintaxis (SyntaxError) y señala con el carácter ^ al lugar en el que se encuentra.</p>
+                                <p>En Python los errores se denominan excepciones. Cuando Python es incapaz de analizar una expresión, produce una excepción. Cuando el intérprete interactivo detecta la excepción, nos muestra por pantalla un mensaje de error.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tema-2">
+                <div class="container" id="tema_2">
+                    <div class="header-ecored">
+                        <h1>2. Tipos de datos </h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-lg-7 my-5"><img src="assets/images/pages/tema_2/img_2_01.svg" alt="" style="width:100%"></div>
+                            <div class="col-12">
+                                <p>En Python se encuentran diferentes tipos de datos con sus respectivas características y clasificaciones. A continuación se detallarán los tipos de datos básicos y otros tipos de datos predefinidos por el lenguaje.</p>
+                                <p class="mt-5">Arias (2019) se refiere a los siguientes tipos de datos básicos de Python: </p>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p><strong>Numéricos</strong></p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p><strong>Booleanos</strong></p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p><strong>Cadenas de caracteres</strong> </p>
+                                    </div>
+                                </div>
+                                <p class="mt-3">Python también define otros tipos de datos, entre los que se encuentran:</p>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p><strong>Secuencias:</strong> list, tuple y range</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p><strong>Conjuntos:</strong> set</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p><strong>Mapas:</strong> dict </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="header-ecored mt-3" id="tema2_1">
+                                    <h2>2.1 Conceptos: datos numéricos, booleanos, cadena de caracteres, otros tipos de datos</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="jumbotron img_texture">
+                            <div class="row justify-content-center">
+                                <div class="col-12">
+                                    <div class="jumbotron bg-white">
+                                        <div class="list">
+                                            <div class="list__item">
+                                                <div class="list__item__bulletNumber"><span>A</span></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <h3>Datos numéricos</h3>
+                                                <p>Python define tres tipos de datos numéricos: enteros, punto flotante y números complejos.</p>
+                                                <div class="list mt-5">
+                                                    <div class="list__item">
+                                                        <div class="list__item__icon"><img src="assets/images/icons/icon_duoble_chevron.svg" alt=""></div>
+                                                    </div>
+                                                    <div class="list__txt">
+                                                        <h3>Números enteros</h3>
+                                                        <p>Se denominan <strong><i>int</i></strong>. Este tipo de dato comprende el conjunto de todos los números enteros, cuyo límite depende de la capacidad de memoria del computador. </p>
+                                                        <p>Un número de tipo <strong><i>int</i></strong> se crea a partir de un literal que represente un número entero, o como resultado de una expresión o como una llamada a una función.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 my-4">
+                                                    <div class="console">
+                                                        <p class="cl-gray"># Ejemplo</p>
+                                                        <p class="cl-gray"># v es de tipo int y su valor asignado es -3</p>
+                                                        <p class="cl-green">>>> v = -3 </p>
+                                                        <p class="cl-gray"># m es de tipo int y su valor calculado es 5</p>
+                                                        <p class="cl-green">>>> m = v + 8 </p>
+                                                        <p class="cl-green">>>>print (m)</p>
+                                                        <p>5</p>
+                                                        <p class="cl-gray"># z es de tipo int y con la función redondeo es 2</p>
+                                                        <p class="cl-green">>>> z = round(m/2) </p>
+                                                        <p class="cl-green">>>> print(z)</p>
+                                                        <p>2</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <p>También se pueden representar los números enteros en formato binario, octal o hexadecimal.</p>
+                                                    <div class="list">
+                                                        <div class="list__item">
+                                                            <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                        </div>
+                                                        <div class="list__txt">
+                                                            <p>Para crear un número entero en binario, se antepone 0b a una secuencia de dígitos 0 y 1.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="list">
+                                                        <div class="list__item">
+                                                            <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                        </div>
+                                                        <div class="list__txt">
+                                                            <p>Para crear un número entero en octal, se antepone 0o a una secuencia de dígitos del 0 al 7.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="list">
+                                                        <div class="list__item">
+                                                            <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                        </div>
+                                                        <div class="list__txt">
+                                                            <p>Para crear un número entero en hexadecimal, se antepone 0x a una secuencia de dígitos del 0 al 9 y de la A la F.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 my-4">
+                                                    <div class="console">
+                                                        <p>Ejemplo</p>
+                                                        <p class="cl-green">>>> decimal = 8</p>
+                                                        <p class="cl-green">>>> binario = 0b1101</p>
+                                                        <p class="cl-green">>>> octal = 0o11</p>
+                                                        <p class="cl-green">>>> hexadecimal = 0xc</p>
+                                                        <p class="cl-green">>>> print(decimal)</p>
+                                                        <p>8</p>
+                                                        <p class="cl-green">>>> print(binario)</p>
+                                                        <p>13</p>
+                                                        <p class="cl-green">>>> print(octal)</p>
+                                                        <p>9</p>
+                                                        <p class="cl-green">>>> print(hexadecimal)</p>
+                                                        <p>12 </p>
+                                                    </div>
+                                                </div>
+                                                <div class="hr-divider my-5"></div>
+                                                <div class="list mt-5">
+                                                    <div class="list__item">
+                                                        <div class="list__item__icon"><img src="assets/images/icons/icon_duoble_chevron.svg" alt=""></div>
+                                                    </div>
+                                                    <div class="list__txt">
+                                                        <h3>Números de punto flotante</h3>
+                                                        <p>Se denominan <strong><i>float</i></strong>. Se usa el tipo <strong><i>float</i></strong> para representar cualquier número real que represente valores de temperaturas, velocidades, estaturas y otras. </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 my-4">
+                                                    <div class="console">
+                                                        <p class="cl-gray"># Ejemplo </p>
+                                                        <p class="cl-green">>>> real = 1.1 + 2.2 <span class="inline_comment"># real es un float</span></p>
+                                                        <p class="cl-green">>>> print(real)</p>
+                                                        <p>3.3000000000000003 <span class="inline_comment"># representación aproximada de 3.3</span> </p>
+                                                        <p class="cl-green">>>> print(round(real,1))</p>
+                                                        <p>3.3 <span class="inline_comment"># real mostrando únicamente 1 cifra decimal</span> </p>
+                                                    </div>
+                                                </div>
+                                                <div class="hr-divider my-5"></div>
+                                                <div class="list mt-5">
+                                                    <div class="list__item">
+                                                        <div class="list__item__icon"><img src="assets/images/icons/icon_duoble_chevron.svg" alt=""></div>
+                                                    </div>
+                                                    <div class="list__txt">
+                                                        <h3>Números complejos</h3>
+                                                        <p>Este tipo de datos en Python se denomina <strong><i>complex</i></strong>.</p>
+                                                        <p>Los números complejos tienen una parte real y otra imaginaria y cada una de ellas se representa como un <strong><i>float</i></strong>. Los números imaginarios son múltiplos de la unidad imaginaria (la raíz cuadrada de -1). </p>
+                                                        <div class="list">
+                                                            <div class="list__item">
+                                                                <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                            </div>
+                                                            <div class="list__txt">
+                                                                <p>Para definir un número complejo, se hace así:</p>
+                                                                <div class="row">
+                                                                    <div class="col-auto">
+                                                                        <div class="jumbotron mb-0">
+                                                                            <p class="mb-0"><strong>&lt;parte_real&gt; + &lt;parte_imaginaria&gt; j</strong> </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="mt-4"><strong>Ejemplo:</strong> 4 + 7j</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list">
+                                                            <div class="list__item">
+                                                                <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                            </div>
+                                                            <div class="list__txt">
+                                                                <p>Para acceder a la parte real se usa el atributo real.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list">
+                                                            <div class="list__item">
+                                                                <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                            </div>
+                                                            <div class="list__txt">
+                                                                <p>Para acceder a la parte imaginaria se usa el atributo <i>imag</i>.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 my-4">
+                                                    <div class="console">
+                                                        <p class="cl-gray"># Ejemplo </p>
+                                                        <p class="cl-green">>>> complejo = 5+3j</p>
+                                                        <p class="cl-green">>>> complejo.real</p>
+                                                        <p>5.0 </p>
+                                                        <p class="cl-green">>>> complejo.imag</p>
+                                                        <p class="mb-0">3.0</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <p class="text-center">Para tener acceso a los equivalentes complejos del módulo math, se debe usar cmath.</p>
+                                                </div>
+                                                <div class="hr-divider my-5"></div>
+                                                <div class="list mt-5">
+                                                    <div class="list__item">
+                                                        <div class="list__item__icon"><img src="assets/images/icons/icon_duoble_chevron.svg" alt=""></div>
+                                                    </div>
+                                                    <div class="list__txt">
+                                                        <h3>Aritmética de los tipos numéricos</h3>
+                                                        <p>Para todos los tipos numéricos se pueden aplicar las operaciones: suma, resta, producto o división. Para exponentes se usa ** y para la división entera se usa //.</p>
+                                                        <p>Se permite realizar una operación aritmética con números de distinto tipo. En este caso, el tipo numérico “más pequeño” se convierte al del tipo “más grande”, de forma que el tipo del resultado siempre es el del tipo mayor. </p>
+                                                        <div class="list">
+                                                            <div class="list__item">
+                                                                <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                            </div>
+                                                            <div class="list__txt">
+                                                                <p>El tipo int es menor que el tipo float, el tipo float es menor que el tipo complex.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list">
+                                                            <div class="list__item">
+                                                                <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                            </div>
+                                                            <div class="list__txt">
+                                                                <p>Si vamos a sumar un int y un float, el resultado es un float.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="list">
+                                                            <div class="list__item">
+                                                                <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                            </div>
+                                                            <div class="list__txt">
+                                                                <p>Si vamos a sumar un int y un complex, el resultado es un complex.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 my-4">
+                                                    <div class="console">
+                                                        <p class="cl-gray"># Ejemplo </p>
+                                                        <p class="cl-green">>>> x = 2</p>
+                                                        <p class="cl-green">>>> a = x**3 <span class="inline_comment"># a es 8 elevado a la 3</span></p>
+                                                        <p class="cl-green">>>>print(a)</p>
+                                                        <p>8</p>
+                                                        <p class="cl-green">>>> b = 31</p>
+                                                        <p class="cl-green">>>> c = b//4 <span class="inline_comment"># c es la parte entera de dividir b entre 4</span> </p>
+                                                        <p class="cl-green">>>> print(c)</p>
+                                                        <p>7</p>
+                                                        <p class="cl-green">>>> g = 31.0</p>
+                                                        <p class="cl-green">>>> h = d/4 <span class="inline_comment"># h es la parte entera de dividir g entre 4</span> </p>
+                                                        <p class="cl-green">>>>print(h)</p>
+                                                        <p>7.0</p>
+                                                        <p class="cl-green">>>> 1 + 2.0</p>
+                                                        <p>3.0</p>
+                                                        <p class="cl-green">>>> 2+3j + 5.7</p>
+                                                        <p class="mb-0">(7.7+3j) </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hr-divider my-5"></div>
+                        <div class="jumbotron img_texture">
+                            <div class="row justify-content-center">
+                                <div class="col-12">
+                                    <div class="jumbotron bg-white">
+                                        <div class="list">
+                                            <div class="list__item">
+                                                <div class="list__item__bulletNumber"><span>B</span></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <h3>Datos numéricos</h3>
+                                                <p>En Python se representan los valores booleanos con <strong><i>bool</i></strong>. Esta clase solo se puede instanciar con dos valores: True para verdadero y False para falso.</p>
+                                                <p>Una particularidad del lenguaje es que cualquier variable puede ser usada en un contexto donde se requiera comprobar si algo es verdadero o falso. </p>
+                                                <p>Los siguientes objetos/instancias son consideradas falsas:</p>
+                                                <div class="list">
+                                                    <div class="list__item">
+                                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                    </div>
+                                                    <div class="list__txt">
+                                                        <p>None</p>
+                                                    </div>
+                                                </div>
+                                                <div class="list">
+                                                    <div class="list__item">
+                                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                    </div>
+                                                    <div class="list__txt">
+                                                        <p>False</p>
+                                                    </div>
+                                                </div>
+                                                <div class="list">
+                                                    <div class="list__item">
+                                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                    </div>
+                                                    <div class="list__txt">
+                                                        <p>El valor cero de cualquier tipo númerico: 0, 0.0, 0j</p>
+                                                    </div>
+                                                </div>
+                                                <div class="list">
+                                                    <div class="list__item">
+                                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                    </div>
+                                                    <div class="list__txt">
+                                                        <p>Secuencias y colecciones vacías: '', (), [], {}, set(), range(0)</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 my-4">
+                                                    <div class="console">
+                                                        <p class="cl-gray"># Ejemplo </p>
+                                                        <p class="cl-green">>>> a = False</p>
+                                                        <p class="cl-green">>>> b = True</p>
+                                                        <p class="cl-green">>>> Type(a)</p>
+                                                        <p class="cl-green">&lt;class &#39; bool &#39; &gt; </p>
+                                                        <p class="cl-green">>>> print(a)</p>
+                                                        <p>false</p>
+                                                        <p class="cl-green">>>> print(b)</p>
+                                                        <p>True</p>
+                                                        <p class="cl-green">>>> c = None</p>
+                                                        <p class="cl-green">>>> print(c)</p>
+                                                        <p>None</p>
+                                                        <p class="cl-green">>>> type(c) </p>
+                                                        <p class="cl-green">&lt;class &#39; NoneType &#39; &gt; </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hr-divider my-5"> </div>
+                        <div class="jumbotron img_texture">
+                            <div class="row justify-content-center">
+                                <div class="col-12">
+                                    <div class="jumbotron bg-white">
+                                        <div class="list">
+                                            <div class="list__item">
+                                                <div class="list__item__bulletNumber"><span>C</span></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <h3>Datos tipo cadena de caracteres</h3>
+                                                <p>Salazar (2019) denomina este tipo de dato como <i>string</i>. Para crear un <i>string</i>, se deben encerrar entre comillas simples o dobles una secuencia de caracteres.</p>
+                                                <p>En Python las cadenas de caracteres se representan con <strong><i>str</i></strong>. </p>
+                                                <p>Se puede usar comillas simples o dobles. Si en la cadena de caracteres se necesita usar una comilla simple, existen dos opciones: usar comillas dobles para encerrar el <i>string</i>, o bien, usar comillas simples, pero anteponer el carácter \ a la comilla simple del interior de la cadena. </p>
+                                                <div class="col-12 my-4">
+                                                    <div class="console">
+                                                        <p class="cl-gray"># Ejemplo </p>
+                                                        <p class="cl-green">>>> saludo1 = 'Hola "María"'</p>
+                                                        <p class="cl-green">>>> type(saludo1) </p>
+                                                        <p class="cl-green">&lt;class &#39; str &#39; &gt; </p>
+                                                        <p class="cl-green">>>> saludo2 = 'Hola \'María\' '</p>
+                                                        <p class="cl-green">>>> saludo3 = "Hola 'María' "</p>
+                                                        <p class="cl-green">>>> print(saludo1)</p>
+                                                        <p>Hola "María"</p>
+                                                        <p class="cl-green">>>> print(saludo3)</p>
+                                                        <p class="mb-0">Hola 'María'</p>
+                                                    </div>
+                                                </div>
+                                                <p>A diferencia de otros lenguajes, en Python no existe el tipo «caracter». Pero se puede simular con un <i>string</i> de un solo caracter:</p>
+                                                <div class="col-12 my-4">
+                                                    <div class="console">
+                                                        <p class="cl-gray"># Ejemplo </p>
+                                                        <p class="cl-green">>>> caracter1 = 'z'</p>
+                                                        <p class="cl-green">>>> print(caracter1) </p>
+                                                        <p class="mb-0">z</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hr-divider my-5"></div>
+                        <div class="jumbotron img_texture">
+                            <div class="row justify-content-center">
+                                <div class="col-12">
+                                    <div class="jumbotron bg-white">
+                                        <div class="list">
+                                            <div class="list__item">
+                                                <div class="list__item__bulletNumber"><span>D</span></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <h3>Otros tipos de datos</h3>
+                                                <p>Adicional a los tipos básicos, se encuentran otros tipos fundamentales de Python denominados secuencias <i>(list y tuple)</i>, los conjuntos <i>(set)</i> y los mapas <i>(dict)</i>. </p>
+                                                <p class="mb-5">Pérez (2016) aclara que todos ellos son tipos de datos compuestos y se utilizan para agrupar valores del mismo o diferente tipo.</p>
+                                                <div class="list">
+                                                    <div class="list__item">
+                                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                    </div>
+                                                    <div class="list__txt">
+                                                        <p><strong>Las listas</strong> son arreglos unidimensionales de elementos donde podemos ingresar cualquier tipo de dato, para acceder a estos datos debemos usar un índice. La posición inicial es la posición 0.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 my-4">
+                                                    <div class="console">
+                                                        <p class="cl-gray"># Ejemplo </p>
+                                                        <p class="cl-green">>>> lista = [3, 4.2, 'SENA', [8,9] ,5] <span class="inline_comment"># lista contiene int, real, cadena, list, int</span> </p>
+                                                        <p class="cl-green">>>> print lista[0] <span class="inline_comment"># la posición 0 de la lista contiene el valor 3</span> </p>
+                                                        <p class="cl-green">>>> print lista[1] <span class="inline_comment"># la posición 1 de la lista contiene el valor 4.2</span> </p>
+                                                        <p class="cl-green">>>> print lista[2] <span class="inline_comment"># la posición 2 de la lista contiene la cadena 'SENA'</span> </p>
+                                                        <p class="cl-green">>>> print lista[3] <span class="inline_comment"># la posición 3 de la lista contiene la lista &lsqb;8,9&rsqb;</span> </p>
+                                                        <p class="cl-green">>>> print lista[4] <span class="inline_comment"># la posición 4 de la lista contiene el valor 5</span> </p>
+                                                        <p class="cl-green">>>> print lista[3][0] <span class="inline_comment"># la posición 3,0 de la lista contiene 8</span> </p>
+                                                        <p class="cl-green">>>> print lista[3][1] <span class="inline_comment"># la posición 3,1 de la lista contiene 9</span> </p>
+                                                        <p class="cl-green">>>> print lista[1:3] <span class="inline_comment"># las posiciones de la 1 a la 3 contienen &lsqb;4.2, 'SENA'&rsqb;</span> </p>
+                                                        <p class="cl-green">>>> print lista[1:4] <span class="inline_comment"># las posiciones de la 1 a la 4 contienen &lsqb;4.2, 'SENA', &lsqb;8, 9&rsqb;</span> </p>
+                                                        <p class="cl-green">>>> print lista[1:5] <span class="inline_comment"># las posiciones de la 1 a la 5 contienen &lsqb;4.2, 'SENA', &lsqb;8, 9 &rsqb;,5 &rsqb;</span> </p>
+                                                    </div>
+                                                </div>
+                                                <div class="hr-divider my-5"></div>
+                                                <div class="list">
+                                                    <div class="list__item">
+                                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                    </div>
+                                                    <div class="list__txt">
+                                                        <p><strong>Las tuplas</strong> se representan escribiendo los elementos entre paréntesis y separados por comas. La función len() devuelve el número de elementos de una tupla. Una tupla puede no contener ningún elemento, es decir, puede ser una tupla vacía. Una tupla puede incluir un único elemento seguido de una coma.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 my-4">
+                                                    <div class="console">
+                                                        <p class="cl-gray"># Ejemplo </p>
+                                                        <p class="cl-green">>>> tupla= (8, "b", 4.91) </p>
+                                                        <p class="cl-green">>>> tupla </p>
+                                                        <p>(8, 'b', 4.91)</p>
+                                                        <p class="cl-green">>>> len(tupla)</p>
+                                                        <p>3</p>
+                                                        <p class="cl-green">>>> len(())</p>
+                                                        <p>0</p>
+                                                        <p class="cl-green">>>> (3,)</p>
+                                                        <p>(3,)</p>
+                                                        <p class="cl-green">>>> len((3,))</p>
+                                                        <p>1</p>
+                                                    </div>
+                                                </div>
+                                                <div class="hr-divider my-5"></div>
+                                                <div class="list">
+                                                    <div class="list__item">
+                                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                    </div>
+                                                    <div class="list__txt">
+                                                        <p><strong>Los conjuntos</strong> son una colección no ordenada y sin elementos repetidos. Se definen con la palabra set, seguida de llaves que contienen los elementos separados por comas. Si se desea remover un elemento de un conjunto, se puede usar el método <i>remove()</i>.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 my-4">
+                                                    <div class="console">
+                                                        <p class="cl-gray"># Ejemplo </p>
+                                                        <p class="cl-green">>>> frutas = set([ 'mango', 'pera', 'manzana', 'limón' ]) </p>
+                                                        <p class="cl-green">>>> frutas </p>
+                                                        <p>{'mango', 'manzana', 'pera', 'limón'}</p>
+                                                        <p class="cl-green">>>> frutas.remove('manzana')</p>
+                                                        <p class="cl-green">>>> frutas</p>
+                                                        <p>{'mango', 'pera', 'limón'}</p>
+                                                    </div>
+                                                </div>
+                                                <div class="hr-divider my-5"></div>
+                                                <div class="list">
+                                                    <div class="list__item">
+                                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                                    </div>
+                                                    <div class="list__txt">
+                                                        <p><strong>Los diccionarios</strong> son un tipo de estructuras de datos que permiten guardar un conjunto no ordenado de pares clave-valor, existiendo las claves únicas dentro de un mismo diccionario (es decir, que no pueden tener dos elementos con una misma clave). El diccionario se declara entre los caracteres '{ }' y los elementos se separan por comas (','). </p>
+                                                        <p>Los diccionarios denominados <strong><i>dict</i></strong> para Python, son estructuras de datos muy extendidos en otros lenguajes de programación, aunque en otros lenguajes como java se les denominan con distintos nombres como <i>"Map"</i>.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 my-4">
+                                                    <div class="console">
+                                                        <p class="cl-gray"># Ejemplo </p>
+                                                        <p class="cl-gray"># Defino la variable 'futbolistas' como un diccionario. </p>
+                                                        <p class="cl-green">futbolistas = dict()</p>
+                                                        <p class="cl-green mb-0">futbolistas = {</p>
+                                                        <p class="cl-green mb-0">13 : "Mina", 21 : "Lucumi",</p>
+                                                        <p class="cl-green mb-0">17 : "Fabra", 11 : "Cuadrado",</p>
+                                                        <p class="cl-green mb-0">9 : "Falcao", 19 : "Muriel",</p>
+                                                        <p class="cl-green mb-0">15 : "Uribe", 10 : "James Rodriguez",</p>
+                                                        <p class="cl-green mb-0">16 : "Lerma", 5 : "Wilmar Barrios",</p>
+                                                        <p class="cl-green mb-0">3 : "Murillo"</p>
+                                                        <p class="cl-green mb-0">}</p>
+                                                        <p class="cl-green">>>> futbolistas</p>
+                                                        <p>{13: 'Mina', 21: 'Lucumi', 17: 'Fabra', 11: 'Cuadrado', 9: 'Falcao', 19: 'Muriel', 15: 'Uribe', 10: 'James Rodriguez', 16: 'Lerma', 5: 'Wilmar Barrios', 3: 'Murillo'}</p>
+                                                        <p class="cl-green">>>> futbolistas[9]</p>
+                                                        <p class="mb-0">'Falcao' </p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 my-4">
+                                                    <p class="mb-5">Ejemplo completo de listas, tupla, conjunto y diccionario:</p>
+                                                    <div class="console">
+                                                        <p class="cl-gray"># Ejemplo </p>
+                                                        <p class="cl-green">>>> lista = [1, 2, 3, 8, 9]</p>
+                                                        <p class="cl-green">>>> tupla = (1, 4, 8, 0, 5)</p>
+                                                        <p class="cl-green">>>> n=len(tupla)</p>
+                                                        <p class="cl-green">>>> conjunto = set([1, 3, 1, 4])</p>
+                                                        <p class="cl-green">>>> diccionario = {'a': 1, 'b': 3, 'z': 8}</p>
+                                                        <p class="cl-green">>>> print(lista)</p>
+                                                        <p>[1, 2, 3, 8, 9]</p>
+                                                        <p class="cl-green">>>> print(tupla)</p>
+                                                        <p>(1, 4, 8, 0, 5)</p>
+                                                        <p class="cl-green">>>> print(“Longitud de la tupla= “,n)</p>
+                                                        <p>Longitud de la tupla= 5</p>
+                                                        <p class="cl-green">>>> print(conjunto)</p>
+                                                        <p>{1, 3, 4}</p>
+                                                        <p class="cl-green">>>> print(diccionario)</p>
+                                                        <p>{'a': 1, 'b': 3, 'z': 8}</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="header-ecored mt-3" id="tema2_2">
+                                    <h2>2.2 Identificar el tipo de variable </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="mb-5">Guzdial (2013) afirma que existen dos funciones en Python para determinar el tipo de dato que contiene una variable: type() e isinstance():</p>
+                                <div class="row">
+                                    <div class="col-auto">
+                                        <div class="jumbotron">
+                                            <p class="mb-2"><strong><i>type()</i></strong></p>
+                                            <p class="mb-0">Recibe como parámetro un objeto y devuelve el tipo del mismo.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-auto">
+                                        <div class="jumbotron mb-0">
+                                            <p class="mb-2"><strong><i>isinstance()</i></strong></p>
+                                            <p class="mb-0">Recibe dos parámetros: un objeto y un tipo. Devuelve True si el objeto es del tipo que se pasa como parámetro y False en caso contrario.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 my-4">
+                                <div class="console">
+                                    <p class="cl-gray"># Ejemplo</p>
+                                    <p class="cl-green">>>> type(5)</p>
+                                    <p class="cl-green">&lt;class 'int'&gt;</p>
+                                    <p class="cl-green">>>> type(3.14)</p>
+                                    <p class="cl-green">&lt;class 'float'&gt; </p>
+                                    <p class="cl-green">>>> type('Hola mundo')</p>
+                                    <p class="cl-green">&lt;class 'str'&gt; </p>
+                                    <p class="cl-green">>>> isinstance(7, float) </p>
+                                    <p>False</p>
+                                    <p class="cl-green">>>> isinstance(8, int)</p>
+                                    <p>True</p>
+                                    <p class="cl-green">>>> isinstance(2, bool)</p>
+                                    <p>False</p>
+                                    <p class="cl-green">>>> isinstance(False, bool)</p>
+                                    <p>True</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="header-ecored mt-3" id="tema2_3">
+                                    <h2>2.3 Conversión de tipos de datos </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="mb-5">En algunos casos se requiere convertir el tipo de datos a otro que sea más adecuado. Por ejemplo, si una cadena contiene el valor “10” para poderlo sumar a otra variable tipo entero, se debe convertir la cadena en un dato tipo entero. </p>
+                                <p>Según Cuevas (2017), Python ofrece las siguientes funciones:</p>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p><strong>str():</strong> devuelve la representación en cadena de caracteres del objeto que se pasa como parámetro.</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p><strong>int():</strong> devuelve un int a partir de un número o secuencia de caracteres.</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt=""></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p><strong><i>float():</i></strong> devuelve un <i>float</i> a partir de un número o secuencia de caracteres.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-12">
+                                <div class="jumbotron">
+                                    <div class="row align-items-center">
+                                        <div class="col-auto"><img src="assets/images/pages/tema_2/icon_2_01.svg" alt="" style="width:150px"></div>
+                                        <div class="col">
+                                            <p class="mb-2"><strong>NOTA</strong></p>
+                                            <div class="hr-divider mb-3" style="background-color:#AEBDD3 !important"></div>
+                                            <p>Si a las funciones anteriores se les pasa como parámetro un valor inválido, el intérprete mostrará un error.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 my-4">
+                                <div class="console">
+                                    <p class="cl-gray"># Ejemplo</p>
+                                    <p class="cl-green">>>> edad=”25” </p>
+                                    <p class="cl-green">>>> edad = int(edad) + 10 <span class="inline_comment"># Convierte edad a int</span> </p>
+                                    <p class="cl-green">>>> edad <span class="inline_comment"># edad es un int</span> </p>
+                                    <p>35 </p>
+                                    <p class="cl-green">>>> edad = str(edad) <span class="inline_comment"># Convierte edad a str</span> </p>
+                                    <p class="cl-green">>>> edad <span class="inline_comment"># edad es un str (se muestran las '')</span> </p>
+                                    <p>'35' </p>
+                                    <p class="cl-green">>>> loat('18.66') <span class="inline_comment"># Convierte un str a float</span> </p>
+                                    <p>18.66</p>
+                                    <p class="cl-green">>>> float('hola') <span class="inline_comment"># Convierte un str a float (pero no es válido)</span> </p>
+                                    <p>Traceback (most recent call last):</p>
+                                    <p>File &ldquo;&lt;input&gt;&rdquo; , line 1, in &lt;module&gt;</p>
+                                    <p>ValueError: could not convert string to float: 'hola' </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="evaluacion">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Actividad didáctica</h1>
+                    </div>
+                    <div class="row align-items-center justify-content-center my-5">
+                        <div class="col-8 col-md-5 col-xl-4 mb-5">
+                            <figure><img src="assets/images/pages/actividad/img_actividad.svg" alt=""></figure>
+                        </div>
+                        <div class="col-12 col-md-7">
+                            <hr class="line-100 bg-orange">
+                            <div class="text-center p-2">
+                                <h2>¡Ponga a prueba su conocimiento! </h2>
+                                <p>La siguiente actividad tiene como propósito validar los conocimientos relacionados con el tema <strong>términos asociados al tipo de datos</strong>.</p><a class="btn btn-colour-Orange" href="media/actividad_1/index.html" target="_blank">Iniciar </a>
+                            </div>
+                            <hr class="line-100 bg-orange">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="glosario">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Glosario</h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <p><strong class="mr-2">>>> :</strong>el <i>prompt</i> en el <i>shell</i> interactivo de Python por omisión. Pueden ser usados en ejemplos de código para ser ejecutados interactivamente en el intérprete.</p>
+                        <hr>
+                        <p><strong class="mr-2">Código fuente:</strong>es un conjunto de instrucciones y órdenes lógicas, compuestas de algoritmos que se encuentran escritos en un determinado lenguaje de programación, las cuales deben ser interpretadas o compiladas, para permitir la ejecución de un programa informático.</p>
+                        <hr>
+                        <p><strong class="mr-2">Compilador:</strong>lee completamente un programa en un lenguaje de alto nivel y lo traduce en su integridad a un programa de código de máquina equivalente. El programa de código de máquina resultante se puede ejecutar cuantas veces se desee, sin necesidad de volver a traducir el programa original.</p>
+                        <hr>
+                        <p><strong class="mr-2">División entera:</strong>una división matemática que se redondea hacia el entero menor más cercano. El operador de la división entera es //. Por ejemplo, la expresión 11 // 4 evalúa 2 a diferencia del 2.75 retornado por la verdadera división de números flotantes. Note que (-11) // 4 es -3 porque es -2.75 redondeado para abajo.</p>
+                        <hr>
+                        <p><strong class="mr-2">Expresión: </strong>una construcción sintáctica que puede ser evaluada, hasta dar un valor. En otras palabras, una expresión es una acumulación de elementos de expresión tales como literales, nombres, accesos a atributos, operadores o llamadas a funciones, todos ellos retornando valor. A diferencia de otros lenguajes, no toda la sintaxis del lenguaje son expresiones.</p>
+                        <hr>
+                        <p><strong class="mr-2">Función: </strong>una serie de sentencias que retornan un valor al que las llama. También se le puede pasar cero o más argumentos los cuales pueden ser usados en la ejecución de la misma.</p>
+                        <hr>
+                        <p><strong class="mr-2"><i>Indentación</i>: </strong>este término significa mover un bloque de texto hacia la derecha, insertando espacios o tabuladores, para así separarlo del margen izquierdo y distinguirlo del texto adyacente; en el ámbito de la imprenta, este concepto se denomina sangrado o sangría.</p>
+                        <hr>
+                        <p><strong class="mr-2">Inmutable: </strong>un objeto con un valor fijo. Los objetos inmutables son números, cadenas y tuplas. Estos objetos no pueden ser alterados. Un nuevo objeto debe ser creado si un valor diferente ha de ser guardado. </p>
+                        <hr>
+                        <p><strong class="mr-2">Intérprete: </strong>lee un programa escrito en un lenguaje de alto nivel, instrucción a instrucción y, para cada una de ellas, efectúa una traducción a las instrucciones de código de máquina equivalentes y las ejecuta inmediatamente. Cada vez que ejecutamos el programa con un intérprete, se repite el proceso de traducción y ejecución, ya que ambos son simultáneos.</p>
+                        <hr>
+                        <p><strong class="mr-2">Multiparadigma: </strong>acepta diferentes paradigmas (técnicas) de programación, tales como la orientación a objetos, la programación imperativa y funcional. </p>
+                        <hr>
+                        <p><strong class="mr-2">Multiplataforma: </strong>significa que puede ser interpretado en diversos Sistemas Operativos como GNU/Linux, OpenBSD, sistemas privativos, entre otros.</p>
+                        <hr>
+                        <p><strong class="mr-2"><i>Software</i> libre: </strong>es el <i>software</i> que respeta la libertad de los usuarios y la comunidad. Significa que los usuarios tienen la libertad de ejecutar, copiar, distribuir, estudiar, modificar y mejorar el <i>software</i>.</p>
+                        <hr>
+                        <p><strong class="mr-2">Tipado dinámico: </strong>un lenguaje de tipado dinámico es aquel cuyas variables no requieren ser definidas asignando su tipo de datos, sino que este se autoasigna en tiempo de ejecución, según el valor declarado. </p>
+                    </div>
+                </div>
+            </div>
+            <div id="anexos">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Material complementario</h1>
+                    </div>
+                    <div class="jumbotron bg-white">
+                        <table class="table table-bordered table-striped">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th class="text-center">Autor, (año del documento o material), Nombre del documento o material.</th>
+                                    <th class="text-center">Tipo de material ( Video, capítulo de libro, artículo, otro) </th>
+                                    <th class="text-center" style="width:150px">Enlace del Recurso o Archivo del documento o material</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Fazt Tech (2019). Curso Python para Principiantes. www.youtube.com</td>
+                                    <td>Video </td>
+                                    <td> <a href="https://www.youtube.com/watch?v=chPhlsHoEPo" target="_blank"><span class="fa fa-download" aria-hidden="true"></span> Ver </a></td>
+                                </tr>
+                                <tr>
+                                    <td>Lozano, J. (2018-2020). J2LOGO. https://j2logo.com/</td>
+                                    <td>Tutorial online</td>
+                                    <td> <a href="https://j2logo.com/python/tutorial/variables-python/" target="_blank"><span class="fa fa-download" aria-hidden="true"></span> Ver</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Python Ya</td>
+                                    <td>Tutorial online</td>
+                                    <td> <a href="https://www.tutorialesprogramacionya.com/pythonya/" target="_blank"><span class="fa fa-download" aria-hidden="true"></span> Ver</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Tutorial Python</td>
+                                    <td>Tutorial online </td>
+                                    <td> <a href="https://www.tutorialpython.com/" target="_blank"><span class="fa fa-download" aria-hidden="true"></span> Ver</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Yacklyon. (2020). Curso de Python.</td>
+                                    <td>Video</td>
+                                    <td> <a href="https://www.youtube.com/watch?v=5Az21q-HmjY&amp;list=PLg9145ptuAijHNZMTDhghSdTWK3BvH8pk&amp;index=5" target="_blank"><span class="fa fa-download" aria-hidden="true"></span> Ver</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div id="referencias">
+                <div class="container">
+                    <div class="header-ecored">
+                        <h1>Referencias bibliográficas</h1>
+                    </div>
+                    <div class="jumbotron bg-white referencias">
+                        <p>Arias, A. (2019). Aprende a programar con Python. Columbia.</p>
+                        <hr>
+                        <p>Cuevas, A. (2017). Python 3: Curso práctico. Bogotá: Ediciones de la U.</p>
+                        <hr>
+                        <p>Guzdial, B. y Vidal, A. (2013). Introduccion a la Computación y programación con Python. México: Pearson educación.</p>
+                        <hr>
+                        <p>Hinojosa, A. (2016). Python paso a paso. Bogotá: Ediciones de la U.</p>
+                        <hr>
+                        <p>Pérez, A. (2016). Python fácil. México: Alfaomegra Grupo Editor.</p>
+                        <hr>
+                        <p>Salazar, P. (2019). Empezando a programar en Python. Bogotá: Editorial Escuela colombiana de ingeniería.</p>
+                        <hr>
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-12 col-md-5 my-4">
+                                <div class="jumbotron p-4">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <p class="text-center pl-4"><i class="fa fa-picture-o fa-2x text-center"></i></p>
+                                        <p class="text-center flex-grow-1">Fotografías y vectores tomados de <a href="https://www.shutterstock.com/" target="_blank">https://www.shutterstock.com/</a> y <a href="https://www.freepik.es/" target="_blank">https://www.freepik.es/</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-5 my-4">
+                                <div class="jumbotron p-4">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <p class="text-center pl-4"><i class="fa fa-creative-commons fa-2x text-center"></i></p>
+                                        <p class="text-center flex-grow-1">Licencia Creative Commons <br> <strong>CC BY-NC-SA</strong><br> <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/es/" target="_blank">Ver licencia.</a> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer" id="Creditos">
+            <div class="container">
+                <h1>Créditos </h1>
+                <div class="brand-line-primary"></div>
+                <div class="row">
+                    <div class="col-12 col-md-5">
+                        <h3 class="footer-subtitulo mb-4">ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES </h3>
+                        <p class="footer-texto mb-2"><strong>Ingry Dayanna Bonilla Monzon </strong><br /> <span class="text-small">Líder del equipo</span></p>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12 col-md-6">
+                        <h4 class="footer-subtitulo-2 mt-0">
+                            <div class="fa fa-caret-right mr-2"></div>Contenido Instruccional
+                        </h4>
+                        <p class="footer-texto mb-2"><strong>Gloria Matilde Lee Mejía </strong><br /> <span class="text-small">Responsable del equipo</span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Comercio y Servicios</span><br><span class="text-small">Regional Tolima</span></p>
+                        <p class="footer-texto mb-2"><strong>Rafael Nelftalí Lizcano Reyes</strong><br /> <span class="text-small">Asesor pedagógico<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA </span><br><span class="text-small">Regional Santander </span></p>
+                        <p class="footer-texto mb-2"><strong>Luz Amparo Blanco Medina</strong><br /><span class="text-small">Experta temática<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de Servicios Empresariales y Turísticos</span><br><span class="text-small">Regional Santander</span></p>
+                        <p class="footer-texto mb-2"><strong>Bertha Paola Bejarano Avila</strong><br /> <span class="text-small">Diseñadora instruccional<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro para la Industria de la comunicación Gráfica </span><br><span class="text-small">Regional Distrito Capital </span></p>
+                        <p class="footer-texto mb-2"><strong>Adriana Lozano Zapata</strong><br /> <span class="text-small">Corrección de estilo<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro para la Industria de la Comunicación Gráfica</span><br><span class="text-small">Regional Distrito Capital </span></p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h4 class="footer-subtitulo-2 mt-0">
+                            <div class="fa fa-caret-right mr-2"></div>Diseño y desarrollo de recursos educativos digitales
+                        </h4>
+                        <p class="footer-texto"><strong>Francisco José Lizcano Reyes </strong><br /> <span class="text-small">Responsable del equipo<br /></span></p>
+                        <p class="footer-texto"><strong>Leyson Fabián Castaño Pérez</strong><br /> <span class="text-small">Integración de recursos y pruebas<br /></span></p>
+                        <p class="footer-texto"> <strong>Adriana Rincón Avendaño</strong><br />
+                            <strong>Camilo Andrés Villamizar Lizcano</strong><br />
+                            <strong>Daniel Ricardo Mutis Gómez</strong><br>
+                            <strong>José Jaime Luis Tang Pinzón</strong><br />
+                            <strong>Lady Adriana Ariza Luque</strong><br />
+                            <strong>Maria Camila Ovalle Ospina</strong><br />
+                            <strong>Nelson Iván Vera Briceño</strong><br />
+                            <strong>Oleg Litvin</strong><br />
+                            <strong>Yazmin Rocio Figueroa Pacheco</strong><br />
+                            <strong>Yenny patricia Ulloa Villamizar</strong><br />
+                            <strong>Víctor Raúl Cárdenas Cáceres</strong><br /> <span class="text-small">Diseño web & producción audiovisual<br /></span></p>
+                        <p class="footer-texto"><strong>Daniel Ricardo Mutis Gómez</strong><br /> <span class="text-small">Desarrollo front-end<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA </span><br><span class="text-small">Regional Santander</span></p>
+                        <h4 class="footer-subtitulo-2 mt-5">
+                            <div class="fa fa-caret-right mr-2"></div>Gestores de repositorio
+                        </h4>
+                        <p class="footer-texto"><strong>Brayan Steven Pinto Díaz</strong><br />
+                            <strong>Edilson Laverde Molina</strong><br />
+                            <strong>Ricardo Alfonso González Vargas</strong><br /> <span class="text-small">Validación de recursos<br /></span></p>
+                        <p class="footer-texto"><span class="text-small text-uppercase">Centro de comercio y servicios </span><br><span class="text-small">Regional Tolima</span></p>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center mt-5"><img src="assets/images/logos/senaLogo.svg" style="max-width:100px"></div>
+            </div>
+        </footer>
+        <section id="cc">
+            <div class="container">
+                <div class="d-flex flex-column flex-sm-row"><span class="pr-3"><i class="icon cc"></i></span><span>Este material puede ser distribuido, copiado y exhibido por terceros si se muestra en los créditos. No se puede obtener ningún beneficio comercial y las obras derivadas tienen que estar bajo los mismos términos de la licencia que el trabajo original.</span></div>
+            </div>
+        </section><a class="scroll-to-top-btn">
+            <div class="fa fa-angle-up fa-2x"></div>
+        </a>
+        <script src="assets/js/vendor.js"></script>
+        <script src="js/local.js"></script>
+    </body>
+</html>

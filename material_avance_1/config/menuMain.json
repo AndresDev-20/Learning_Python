@@ -1,0 +1,71 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },   
+  {
+    "id": 0,
+    "icon": "fa fa-file-text",
+    "slug": "introduccion",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/introduccion.html"
+  },
+  {
+    "id": 1,
+    "icon": "fa fa-file-text",
+    "slug": "instalacion_python",
+    "title": "1. Proceso de instalación de Python",    
+    "path": "pages/tema-1.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "instalacion_python",
+        "title": "1.1 Comentarios en Python",
+        "anchor": "tema1_1"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "instalacion_python",
+        "title": "1.2 Errores de tecleo y excepciones",
+        "anchor": "tema1_2"
+      }       
+    ]   
+  },
+  {
+    "id": 2,
+    "icon": "fa fa-file-text",
+    "slug": "tipos_datos",
+    "title": "2. Tipos de datos",    
+    "path": "pages/tema-2.html",
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "tipos_datos",
+        "title": "2.1 Conceptos: datos númericos, booleanos, cadena de caracteres, otros tipos de datos",
+        "anchor": "tema2_1"
+      }, 
+      {
+        "icon": "fa fa-file-text",
+        "slug": "tipos_datos",
+        "title": "2.2 Identificar el tipo de variable",
+        "anchor": "tema2_2"
+      },   
+      {
+        "icon": "fa fa-file-text",
+        "slug": "tipos_datos",
+        "title": "2.3 Conversión de tipos de datos",
+        "anchor": "tema2_3"
+      }     
+    ]   
+  },  
+  {
+    "id": 3,
+    "icon": "fa fa-question",
+    "slug": "actividad",
+    "title": "Actividad didáctica",    
+    "path": "pages/actividad-1.html"       
+  }
+]

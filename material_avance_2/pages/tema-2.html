@@ -1,0 +1,150 @@
+<div class="container" id="tema_2">
+    <div class="header-ecored">
+        <h1>2. Salida de datos</h1>
+    </div>
+    <div class="jumbotron bg-white">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-7 my-5"><img src="assets/images/pages/tema_2/img_2_01.svg" alt="" style="width:100%" /></div>
+            <div class="col-12">
+                <p>Para lograr la salida de datos se pueden combinar textos y variables separados con comas. Es una buena práctica acompañar esta información con mensajes claros al usuario, de manera tal que este identifique el tipo de dato generado y la unidad de medida en la cual se expresa.</p>
+                <p class="mb-0">Ahora se detallará la sintaxis para codificar la salida de información por pantalla. </p>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron bg-white">
+        <div class="row">
+            <div class="col-12">
+                <div class="header-ecored mt-3" id="tema2_1">
+                    <h2>2.1 Sentencia print</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p>Para mostrar datos por pantalla, con frecuencia se utiliza la función <strong>print</strong>. </p>
+                <p>La sintaxis básica de <strong>print</strong> para presentar un mensaje es mencionando directamente el mensaje o almacenando el mensaje en una variable de texto y luego imprimir la variable, de la siguiente manera:</p>
+            </div>
+            <div class="col-12 my-5">
+                <div class="console">
+                    <p class="cl-gray">Ejemplo:</p>
+                    <p class="cl-green">print (“Hola Mundo”)</p>
+                    <p>Hola Mundo</p>
+                    <p class="cl-green">texto=”SENA es Colombia”</p>
+                    <p class="cl-green">print(texto)</p>
+                    <p class="mb-0">SENA es Colombia</p>
+                </div>
+            </div>
+            <div class="col-12">
+                <p class="mb-0">Mientras que si se desea mostrar el valor de una variable numérica, debe hacerlo así:</p>
+            </div>
+            <div class="col-12 my-5">
+                <div class="console">
+                    <p class="mb-0">print (salario)</p>
+                </div>
+            </div>
+            <div class="col-12 mb-5">
+                <p class="mb-0">Dentro del mensaje se pueden utilizar los siguientes caracteres especiales:</p>
+            </div>
+            <div class="col-auto mb-5">
+                <div class="jumbotron mb-0">
+                    <p><strong>\n = salto de línea.</strong> ‘\n’ termina la línea y mueve el cursor a otra línea.</p>
+                    <p class="mb-0"><strong>\t = </strong> es el carácter “tab horizontal" y se usa para simular sangrías de texto.</p>
+                </div>
+            </div>
+            <div class="col-12 mb-5">
+                <p class="mb-0">Una forma de colocar varias cadenas de texto o intercalarlas con variables es colocarlas separadas por comas, el lenguaje incluye un espacio entre ellas. </p>
+            </div>
+            <div class="col-12">
+                <div class="console">
+                    <p class="cl-gray">Ejemplo:</p>
+                    <p class="cl-green">print (“El salario devengado por “, empleado, “es la suma de “, salario)</p>
+                    <p>El salario devengado por MARIA es la suma de 234500</p>
+                    <p class="cl-green">print("El salario devengado por", empleado, "\nes la suma de $", salario)</p>
+                    <p>El salario devengado por MARIA es la suma de $ 234500</p>
+                    <p class="cl-green">print("El salario devengado por \t", empleado, "\tes la \tsuma de $", salario)</p>
+                    <p class="mb-0">El salario devengado por MARIA es la suma de $ 234500</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron bg-white">
+        <div class="row">
+            <div class="col-12">
+                <div class="header-ecored mt-3" id="tema2_2">
+                    <h2>2.2 Salida de datos con formato</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p class="mb-5">Python es compatible con la salida de datos con formato. El caracter módulo % es un operador integrado en Python. Este es conocido como el operador de interpolación. Se deben digitar los formatos deseados, el signo % (porcentaje), seguido por paréntesis con los datos que necesitan ser convertidos.</p>
+                <p>La sintaxis de la instrucción es: </p>
+            </div>
+            <div class="col-12 mb-5">
+                <div class="jumbotron mb-0">
+                    <p class="mb-0">print (“cadena con formato” % (variables separadas por comas))</p>
+                </div>
+            </div>
+            <div class="col-12 mb-5">
+                <p class="mb-0">Se utilizan los siguientes formatos para la salida de datos:</p>
+            </div>
+            <div class="col-12 mb-5">
+                <div class="jumbotron mb-0">
+                    <p>%c = un caracter</p>
+                    <p>%s = str, cadena de caracteres</p>
+                    <p>%d = int, enteros</p>
+                    <p class="mb-0">%f = float, flotantes</p>
+                </div>
+            </div>
+            <div class="col-12 mb-5">
+                <div class="console">
+                    <p class="cl-gray">Ejemplo:</p>
+                    <p class="cl-green">titulo = "raíz cuadrada de tres"</p>
+                    <p class="cl-green">valor = 3**0.5</p>
+                    <p class="cl-green">print ("el resultado de %s es %f " % (titulo, valor))</p>
+                    <p class="mb-5">el resultado de raíz cuadrada de tres es 1.732051</p>
+                    <p class="cl-green">print "Cliente: %s, ¿Activar S o N?: %c" % ("PatPrimo", "S")</p>
+                    <p class="cl-green">Cliente: PatPrimo, ¿Activar S o N?: S</p>
+                    <p class="cl-green">>>> print "Nro. factura: %d, Total a pagar: $ %f" % (567, 12500.83)</p>
+                    <p class="mb-0">Nro. factura: 567, Total a pagar: $ 12500.83</p>
+                </div>
+            </div>
+            <div class="col-12 mb-5">
+                <p class="mb-0">Es posible controlar el formato de salida, por ejemplo, para obtener el valor con ocho (8) dígitos después del punto decimal, se digita %.8f; para una salida con 2 decimales se digita %.2f</p>
+            </div>
+            <div class="col-12">
+                <div class="console">
+                    <p class="cl-gray">Ejemplo:</p>
+                    <p class="cl-green">titulo = "raíz cuadrada de tres"</p>
+                    <p class="cl-green">valor = 3**0.5</p>
+                    <p class="cl-green">print ("el resultado de %s es %.8f " % (titulo, valor)) <span class="inline_comment">#salida con 8 decimales</span></p>
+                    <p>el resultado de raíz cuadrada de tres es 1.73205081</p>
+                    <p class="cl-green">print ("el resultado de %s es %.1f " % (titulo, valor)) <span class="inline_comment">#salida con 1 decimal</span></p>
+                    <p>el resultado de raíz cuadrada de tres es 1.7</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron bg-white">
+        <div class="row">
+            <div class="col-12">
+                <div class="header-ecored mt-3" id="tema2_3">
+                    <h2>2.3 Impresión de cadenas</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 mb-5">
+                <p class="mb-0">Las cadenas tienen varias formas de ser impresas en pantalla. Veamos el siguiente cuadro:</p>
+            </div>
+            <div class="col-12 mb-5">
+                <div class="jumbotron mb-0">
+                    <p>frase1= “El perro”</p>
+                    <p>frase2= “Manchas”</p>
+                    <p class="mb-0">frase3= “ladra en la oscuridad”</p>
+                </div>
+            </div>
+            <div class="col-12"><img src="assets/images/pages/tema_2/info_2_3_01.svg" alt="" style="width:100%" /></div>
+        </div>
+    </div>
+</div>

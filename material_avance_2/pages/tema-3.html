@@ -1,0 +1,398 @@
+<div class="container" id="tema_3">
+    <div class="header-ecored">
+        <h1>3. Instrucciones secuenciales con Python </h1>
+    </div>
+    <div class="jumbotron bg-white">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-9 mb-5"><img src="assets/images/pages/tema_3/img_3_1_01.svg" alt="" style="width:100%" /></div>
+            <div class="col-12">
+                <p>Una vez leídos los datos de entrada, se debe proceder a realizar los cálculos necesarios para obtener la información requerida por el usuario. Estas instrucciones se deben digitar una tras otra, verificando que el procedimiento lógico sea correcto y los operadores empleados sean los adecuados. Es indispensable cumplir con la sintaxis aceptada por Python.</p>
+                <p>En la codificación de las instrucciones se pueden utilizar comentarios, constantes, variables, asignaciones, operadores aritméticos y funciones.</p>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron bg-white">
+        <div class="row">
+            <div class="col-12">
+                <div class="header-ecored mt-3" id="tema3_1">
+                    <h2>3.1 Comentarios en Python</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p>Ortega (2018) define un comentario en Python como una línea de texto no ejecutable, es decir, no es una línea de código.</p>
+                <p class="mb-5">Es una buena práctica en programación documentar el código para mayor claridad. Se pueden hacer comentarios en Python para ilustrar acerca de lo que hace el programa. Se pueden incluir tantos comentarios como se requieran. </p>
+                <p>Hay dos formas para hacer comentarios:</p>
+                <div class="list">
+                    <div class="list__item">
+                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                    </div>
+                    <div class="list__txt">
+                        <p>Digitando el símbolo <strong>#</strong> al comienzo del comentario o dentro de la línea de código. </p>
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="list__item">
+                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                    </div>
+                    <div class="list__txt">
+                        <p>Digitando triple comilla <strong>(“)</strong> al principio y al final del comentario, cuando este ocupa varias líneas.</p>
+                    </div>
+                </div>
+                <div class="col-12 mt-5">
+                    <div class="console">
+                        <p class="cl-gray">Ejemplo:</p>
+                        <p class="cl-gray"> # SENA: Colombia</p>
+                        <p class="cl-gray"> # Regional: Santander </p>
+                        <p class="cl-green">a=30 <span class="inline_comment"># a representa el número de aprendices por Ficha</span></p>
+                        <p class="cl-green">b=9 <span class="inline_comment"># b representa el número de Fichas de programación de software</span> </p>
+                        <p class="cl-gray mb-0">"""Estos son datos de los 8 centros de formación ubicados en el departamento de Santander."""</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron bg-white">
+        <div class="row">
+            <div class="col-12">
+                <div class="header-ecored mt-3" id="tema3_2">
+                    <h2>3.2 Instrucciones de asignación</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p class="mb-5">Una variable es una forma de identificar un dato que se encuentra almacenado en la memoria del computador. El valor de la variable puede ir cambiando a medida que se ejecutan las instrucciones del programa.</p>
+                <p>Nombres de variables válidos en Python:</p>
+                <div class="list">
+                    <div class="list__item">
+                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                    </div>
+                    <div class="list__txt">
+                        <p>Secuencias de letras y dígitos.</p>
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="list__item">
+                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                    </div>
+                    <div class="list__txt">
+                        <p>El nombre de la variable debe iniciar con una letra.</p>
+                    </div>
+                </div>
+                <div class="list mb-5">
+                    <div class="list__item">
+                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                    </div>
+                    <div class="list__txt">
+                        <p class="mb-0">Se puede usar el guion bajo (_).</p>
+                    </div>
+                </div>
+                <p>A las variables se les puede asignar un valor de cualquier tipo (int, float, str, booleano, lista) o una expresión aritmética.</p>
+                <p>En la siguiente tabla se verán varios operadores aritméticos que pueden ser utilizados en una asignación:</p>
+            </div>
+            <div class="col-12 mt-5"><img src="assets/images/pages/tema_3/tabla_01.svg" alt="" style="width:100%" /></div>
+        </div>
+    </div>
+    <div class="jumbotron bg-white">
+        <div class="row">
+            <div class="col-12">
+                <div class="header-ecored mt-3" id="tema3_3">
+                    <h2>3.3 Inicialización de variables</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p>Algunas variables requieren ser inicializadas con un valor, usualmente ese valor es cero.</p>
+                <p>Cuando asignamos un valor a una variable por primera vez, se dice que se define e inicializa la variable. En un programa Python se pueden definir las variables en cualquier lugar del programa. Sin embargo, es una buena práctica definir las variables al principio del programa.</p>
+                <p class="mb-4">Para asignar un valor a una variable se utiliza el operador de asignación =.</p>
+                <div class="jumbotron mb-0">
+                    <p class="mb-0">No es necesario declarar inicialmente una variable con un tipo de datos; al asignar un valor a una variable, se declara e inicializa la variable con ese valor.</p>
+                </div>
+            </div>
+            <div class="col-12 my-5">
+                <div class="console">
+                    <p class="cl-gray"> # Ejemplo: </p>
+                    <p class="cl-green">b= 100 <span class="inline_comment">#b se inicializa con un valor entero</span></p>
+                    <p class="cl-green"> c= b**3 <span class="inline_comment">#c se inicializa con una expresión</span> </p>
+                    <p class="cl-green mb-0">print(c) </p>
+                </div>
+            </div>
+            <div class="col-12">
+                <p class="mb-0">Si intentamos usar una variable que no ha sido inicializada, el intérprete mostrará un error:</p>
+            </div>
+            <div class="col-12 mb-5">
+                <div class="console">
+                    <p class="cl-gray"> # Ejemplo:</p>
+                    <p class="cl-green">>>> print(z)</p>
+                    <p>Traceback (most recent call last): </p>
+                    <p>File &quot;&lt;input&gt;&quot;, line 1, in &lt;module&gt; </p>
+                    <p class="mb-0">NameError: name 'z' is not defined </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron bg-white">
+        <div class="row">
+            <div class="col-12">
+                <div class="header-ecored mt-3" id="tema3_4">
+                    <h2>3.4 Uso de constantes y variables</h2>
+                </div>
+            </div>
+            <div class="col-12">
+                <p class="mb-0">Una constante es un campo de memoria donde su valor o contenido no cambia: la única diferencia es que las constantes van en mayúscula, por ejemplo, CONSTANTE1. Desde el punto de vista funcional no existe ninguna diferencia entre las constantes y variables en Python. Es recomendable, como buena práctica, que no se modifique el valor de una constante posteriormente. </p>
+            </div>
+            <div class="col-12 my-5">
+                <div class="console">
+                    <p class="cl-gray"># Ejemplo:</p>
+                    <p class="cl-green">IVA = 0.19</p>
+                    <p class="cl-green">precioinicial = 3000</p>
+                    <p class="cl-green">preciofinal = precioinicial * (1.0+IVA)</p>
+                    <p class="cl-green">print(preciofinal)</p>
+                    <p class="mb-0">3570</p>
+                </div>
+            </div>
+            <div class="col-12">
+                <p>Una <strong>variable</strong> es una unidad de datos que puede cambiar de valor. El programador puede decidir el nombre de las variables, se recomienda que sea claro y conciso, y también puede escribir funciones que trabajen con los valores contenidos en ellas.</p>
+                <p>Para modificar el valor de una variable, simplemente se le asigna un nuevo valor en el programa, este puede ser un literal, una expresión, una llamada a una función o una combinación de todos ellos.</p>
+                <p class="mb-0">Un literal es un dato puro, que puede ser un número, una cadena de caracteres o un booleano.</p>
+            </div>
+            <div class="col-12 my-5">
+                <div class="console">
+                    <p class="cl-gray"># Ejemplo:</p>
+                    <p class="cl-green">a= 10000 <span class="inline_comment"># a se inicializa con un número entero</span> </p>
+                    <p class="cl-green">b= a * 2/100 <span class="inline_comment"># b se inicializa con una expresión</span> </p>
+                    <o class="cl-green">c= “JUAN CARLOS” <span class="inline_comment"># c se inicializa con una cadena</span></o>
+                    <p class="cl-green">print( c, “debe la suma de $”, a+b)</p>
+                    <p class="mb-0">JUAN CARLOS debe la suma de $ 10200</p>
+                </div>
+            </div>
+            <div class="col-12">
+                <p class="mb-0">Es posible en Python asignar un mismo valor a múltiples variables a la vez. Se pueden definir varias variables con un mismo dato, así:</p>
+            </div>
+            <div class="col-12 my-5">
+                <div class="console">
+                    <p>a = b = c = 10 <span class="inline_comment"># Inicializan a, b y c con el valor entero 10</span> </p>
+                    <p class="cl-green">>>> print(a)</p>
+                    <p>10</p>
+                    <p class="cl-green">>>> print(b)</p>
+                    <p>10</p>
+                    <p class="cl-green">>>> print(c)</p>
+                    <p class="mb-0">10</p>
+                </div>
+            </div>
+            <div class="col-12">
+                <p class="mb-0">También está permitido, en una sola instrucción, inicializar varias variables con un valor diferente para cada una:</p>
+            </div>
+            <div class="col-12 my-5">
+                <div class="console">
+                    <p class="cl-green">>>> a, b, c = 100, 200, 300 </p>
+                    <p class="cl-green">>>> print(a)</p>
+                    <p>100</p>
+                    <p class="cl-green">>>> print(b)</p>
+                    <p>200</p>
+                    <p class="cl-green">>>> print(c)</p>
+                    <p class="mb-0">300</p>
+                </div>
+            </div>
+            <div class="col-12">
+                <p class="mb-4">Existen unas variables especiales denominadas acumuladores y otras denominadas contadores.</p>
+                <div class="jumbotron">
+                    <p>Un <strong>acumulador</strong> es una variable a la que le vamos sumando un determinado valor.</p>
+                    <p class="my-4"><strong>Ejemplo: suma=suma+edad</strong> </p>
+                    <p class="mb-0">La variable suma, acumula las edades.</p>
+                </div>
+                <div class="jumbotron mb-0">
+                    <p>Un <strong>contador</strong> es una variable a la cual le vamos sumando/restando un valor constante. </p>
+                    <p class="my-4"><strong>Ejemplo: total=total+1</strong> </p>
+                    <p class="mb-0">La variable total se incrementa en 1 cada vez que se ejecuta esta instrucción.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron bg-white">
+        <div class="row">
+            <div class="col-12">
+                <div class="header-ecored mt-3" id="tema3_5">
+                    <h2>3.5 Funciones predefinidas de Python</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p>Existe una diversidad de funciones predefinidas en Python o funciones internas. Buttu (2016) menciona algunas de las funciones más utilizadas y conocidas:</p>
+            </div>
+            <div class="col-12 my-5"><img src="assets/images/pages/tema_3/tabla_02.svg" alt="" style="width:100%" /></div>
+            <div class="col-12 my-5"><img src="assets/images/pages/tema_3/tabla_03.svg" alt="" style="width:100%" /></div>
+            <div class="col-12 my-5"><img src="assets/images/pages/tema_3/tabla_04.svg" alt="" style="width:100%" /></div>
+        </div>
+    </div>
+    <div class="jumbotron bg-white">
+        <div class="row">
+            <div class="col-12">
+                <div class="header-ecored mt-3" id="tema3_6">
+                    <h2>3.6 Librerías de fecha, random y matemáticas</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 mb-5">
+                <p>En Python se pueden utilizar funciones predefinidas para manejar fechas, generar números aleatorios y aplicar funciones matemáticas, importando algunas librerías, las cuales, según Caballero (2019), se pueden aplicar en Big Data.</p>
+            </div>
+            <div class="col-12">
+                <div class="list">
+                    <div class="list__item">
+                        <div class="list__item__bulletNumber"><span>A</span></div>
+                    </div>
+                    <div class="list__txt">
+                        <h3>Librerías de fecha</h3>
+                        <p>Si se necesita usar fechas en un programa, es necesario importar las librerías Python: <strong><i>datetime y date</i></strong></p>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="console my-5">
+                                    <p class="cl-green">from datetime import date</p>
+                                    <p class="cl-green">from datetime import datetime</p>
+                                    <p class="cl-green">hoy = date.today() <span class="inline_comment">#fecha actual</span></p>
+                                    <p class="cl-green">print(“Hoy es el dia: “, hoy)</p>
+                                    <p>Hoy es el día: 2020-10-28</p>
+                                    <p class="cl-green">fecha = datetime.now() <span class="inline_comment">#Fecha actual con hora completa</span></p>
+                                    <p class="cl-green">print("La fecha completa de hoy es: ",fecha)</p>
+                                    <p class="mb-0">La fecha de hoy es: 2020-10-28 17:42:17.961801</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hr-divider my-5"></div>
+            <div class="col-12">
+                <div class="list">
+                    <div class="list__item">
+                        <div class="list__item__bulletNumber"><span>B</span></div>
+                    </div>
+                    <div class="list__txt">
+                        <h3>Librerías random</h3>
+                        <p>Si se requiere generar números aleatorios (randómicos), es necesario cargar la librería random.</p>
+                        <p>Aquí se presentan unos ejemplos de las posibles funciones con números aleatorios:</p>
+                        <div class="console my-5">
+                            <p class="cl-green">import random </p>
+                            <p class="cl-green">a= random.randint(10,100) <span class="inline_comment">#genera un número entero aleatorio entre 10 y 100</span></p>
+                            <p class="cl-green">print (a)</p>
+                            <p class="mb-5">99</p>
+                            <p class="cl-green">b= random.randrange(0,100,5) <span class="inline_comment">genera un número entero aleatorio entre 0 y 100 incrementos de 5</span></p>
+                            <p class="cl-green">print (b)</p>
+                            <p class="mb-5">25</p>
+                            <p class="cl-green">c= random.random() <span class="inline_comment">#genera un número float aleatorio entre 0.0 y 1.0</span></p>
+                            <p class="cl-green">print (c)</p>
+                            <p class="mb-5">0.998394986213598</p>
+                            <p class="cl-green">d= random.uniform(100, 200) <span class="inline_comment">#genera un número float aleatorio entre 100.0 y 200.0 inclusive.</span></p>
+                            <p class="cl-green">print (d)</p>
+                            <p class="mb-5">156.5039706179512 </p>
+                        </div>
+                        <p class="mb-0">La función <strong><i>choice</i></strong> permite seleccionar al azar un dato desde un conjunto.
+                        <div class="console my-5">
+                            <p class="cl-green">Import random</p>
+                            <p class="cl-green">amigos = ['Luis', 'Mauricio', 'Patricia', 'Carlos']</p>
+                            <p class="cl-green">ganador= random.choice(amigos)</p>
+                            <p class="cl-green">print(“El ganador fue: “,ganador)</p>
+                            <p class="mb-0">El ganador fue: Patricia</p>
+                        </div>
+                        </p>
+                        <p class="mb-0">La función <strong><i>shuffle</i></strong> modifica el orden de los elementos de una lista.
+                        <div class="console my-5">
+                            <p class="cl-green">Import random</p>
+                            <p class="cl-green">naipes = [1, 2, 3, 4, 5, 6, 7, 10, 11, 12]</p>
+                            <p class="cl-green">random.shuffle(naipes) <span class="inline_comment">#los naipes se barajaron al azar</span></p>
+                            <p class="cl-green">print(naipes)</p>
+                            <p class="mb-0">[3, 6, 2, 12, 5, 1, 4, 11, 10, 7]</p>
+                        </div>
+                        </p>
+                        <p class="mb-0">La función <strong><i>sample.</i></strong> Esta función extrae una cantidad de números aleatorios de un conjunto.
+                        <div class="console my-5">
+                            <p class="cl-green">Import random</p>
+                            <p class="cl-green">naipes = [1, 2, 3, 4, 5, 6, 7, 10, 11, 12]</p>
+                            <p class="cl-green">random.sample(naipes, 3) <span class="inline_comment">#se tomaron 3 cartas del total de naipes</span></p>
+                            <p class="cl-green">print(naipes)</p>
+                            <p class="mb-0">[4, 11, 3]</p>
+                        </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="hr-divider my-5"></div>
+            <div class="col-12">
+                <div class="list">
+                    <div class="list__item">
+                        <div class="list__item__bulletNumber"><span>C</span></div>
+                    </div>
+                    <div class="list__txt">
+                        <h3>Librerías matemáticas</h3>
+                        <p>Cervantes (2017) hace referencia a unas funciones matemáticas que vienen predefinidas por Python y otras que requieren ser importadas de la librería <strong><i>math</i></strong>.</p>
+                        <p>La función <strong><i>trunc()</i></strong> elimina los decimales de un número <strong><i>float</i></strong>.</p>
+                        <div class="console my-5">
+                            <p class="cl-green">import math</p>
+                            <p class="cl-green">a=123.56</p>
+                            <p class="cl-green">b=math.trunc(a)</p>
+                            <p class="cl-green">print(“El valor truncado es: “,b)</p>
+                            <p class="mb-0">123</p>
+                        </div>
+                        <p class="mb-0">La función <strong><i>fabs()</i></strong> calcula el valor absoluto de un número float, eliminando el signo.</p>
+                        <div class="console my-5">
+                            <p class="cl-green">import math</p>
+                            <p class="cl-green">a= - 200.45</p>
+                            <p class="cl-green">b=math.fabs(a)</p>
+                            <p class="cl-green">print(“El valor absoluto es: “,b)</p>
+                            <p class="mb-0">200.45</p>
+                        </div>
+                        <p class="mb-0">La función <strong><i>factorial()</i></strong> calcula el número de combinaciones posibles de una serie de objetos. El factorial se expresa como n!. ejemplo: 0! == 1. Es importante aclarar que la función factorial() solo se utiliza con números enteros.</p>
+                        <div class="console my-5">
+                            <p class="cl-green">import math</p>
+                            <p class="cl-green">a= 6</p>
+                            <p class="cl-green">b=math.factorial(a)</p>
+                            <p class="cl-green">print(“El valor factorial de “,a, “ es: “,b) <span class="inline_comment"># 6! es igual a 6x5x4x3x2x1</span> </p>
+                            <p class="mb-0">720</p>
+                        </div>
+                        <p class="mb-0">La función <strong><i>fmod()</i></strong> calcula el residuo de una división entre dos números float.</p>
+                        <div class="console my-5">
+                            <p class="cl-green">import math</p>
+                            <p class="cl-green">c= math.fmod(16,5)</p>
+                            <p class="cl-green">print(“el residuo de dividir 16 entre 5 es ”,c) </p>
+                            <p class="mb-0">el residuo de dividir 16 entre 5 es 1.0</p>
+                        </div>
+                        <p class="mb-0">La función <strong><i>sqrt()</i></strong> calcula la raíz cuadrada de un número entero.</p>
+                        <div class="console my-5">
+                            <p class="cl-green">import math</p>
+                            <p class="cl-green">a=3</p>
+                            <p class="cl-green">c= math.sqrt(a) </p>
+                            <p class="cl-green">print(“la raíz cuadrada de 3 es: ”,c)</p>
+                            <p class="mb-0">la raíz cuadrada de 3 es: 1.7320508075688772</p>
+                        </div>
+                        <p>Las funciones trigonométricas seno, coseno y tangente se realizan usando <strong><i>sin(), cos() y tan()</i></strong>. </p>
+                        <p class="mb-0"> Las funciones trigonométricas en la librería math toman los valores de los ángulos expresados como radianes. Por esta razón, debe realizarse la conversión de grados a radianes con la función <strong><i>radians</i></strong>.</p>
+                        <div class="console my-5">
+                            <p class="cl-green">import math</p>
+                            <p class="cl-green">angulo= 60</p>
+                            <p class="cl-green">radianes = math.radians(angulo) </p>
+                            <p class="cl-green">print(“los radianes son:”,radianes)</p>
+                            <p class="mb-5">los radianes son: 1.0471975511965976</p>
+                            <p class="cl-green">seno= math.sin(radianes)</p>
+                            <p class="cl-green">coseno= math.cos(radianes)</p>
+                            <p class="cl-green mb-5"> tangente=math.tan(radianes)</p>
+                            <p class="cl-green">print(“el seno es:”,seno)</p>
+                            <p>el seno es: 0.8660254037844386</p>
+                            <p class="cl-green">print(“el coseno es:”,coseno)</p>
+                            <p>el coseno es: 0.5000000000000001</p>
+                            <p class="cl-green">print(“la tangente es:”,tangente)</p>
+                            <p>la tangente es: 1.7320508075688767</p>
+                        </div>
+                        <div class="jumbotron mb-0">
+                            <p class="mb-0">Existen muchas funciones matemáticas adicionales tales como exponenciales, hiperbólicas, trigonométricas inversas, distancia entre coordenadas, entre otras.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

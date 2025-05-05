@@ -1,0 +1,661 @@
+<div class="container" id="tema_2">
+    <div class="header-ecored">
+        <h1>2. Tipos de datos </h1>
+    </div>
+    <div class="jumbotron bg-white">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-7 my-5"><img src="assets/images/pages/tema_2/img_2_01.svg" alt="" style="width:100%" /></div>
+            <div class="col-12">
+                <p>En Python se encuentran diferentes tipos de datos con sus respectivas características y clasificaciones. A continuación se detallarán los tipos de datos básicos y otros tipos de datos predefinidos por el lenguaje.</p>
+                <p class="mt-5">Arias (2019) se refiere a los siguientes tipos de datos básicos de Python: </p>
+                <div class="list">
+                    <div class="list__item">
+                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                    </div>
+                    <div class="list__txt">
+                        <p><strong>Numéricos</strong></p>
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="list__item">
+                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                    </div>
+                    <div class="list__txt">
+                        <p><strong>Booleanos</strong></p>
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="list__item">
+                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                    </div>
+                    <div class="list__txt">
+                        <p><strong>Cadenas de caracteres</strong> </p>
+                    </div>
+                </div>
+                <p class="mt-3">Python también define otros tipos de datos, entre los que se encuentran:</p>
+                <div class="list">
+                    <div class="list__item">
+                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                    </div>
+                    <div class="list__txt">
+                        <p><strong>Secuencias:</strong> list, tuple y range</p>
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="list__item">
+                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                    </div>
+                    <div class="list__txt">
+                        <p><strong>Conjuntos:</strong> set</p>
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="list__item">
+                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                    </div>
+                    <div class="list__txt">
+                        <p><strong>Mapas:</strong> dict </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron bg-white">
+        <div class="row">
+            <div class="col-12">
+                <div class="header-ecored mt-3" id="tema2_1">
+                    <h2>2.1 Conceptos: datos numéricos, booleanos, cadena de caracteres, otros tipos de datos</h2>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron img_texture">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="jumbotron bg-white">
+                        <div class="list">
+                            <div class="list__item">
+                                <div class="list__item__bulletNumber"><span>A</span></div>
+                            </div>
+                            <div class="list__txt">
+                                <h3>Datos numéricos</h3>
+                                <p>Python define tres tipos de datos numéricos: enteros, punto flotante y números complejos.</p>
+                                <div class="list mt-5">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_duoble_chevron.svg" alt="" /></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <h3>Números enteros</h3>
+                                        <p>Se denominan <strong><i>int</i></strong>. Este tipo de dato comprende el conjunto de todos los números enteros, cuyo límite depende de la capacidad de memoria del computador. </p>
+                                        <p>Un número de tipo <strong><i>int</i></strong> se crea a partir de un literal que represente un número entero, o como resultado de una expresión o como una llamada a una función.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 my-4">
+                                    <div class="console">
+                                        <p class="cl-gray"># Ejemplo</p>
+                                        <p class="cl-gray"># v es de tipo int y su valor asignado es -3</p>
+                                        <p class="cl-green">>>> v = -3 </p>
+                                        <p class="cl-gray"># m es de tipo int y su valor calculado es 5</p>
+                                        <p class="cl-green">>>> m = v + 8 </p>
+                                        <p class="cl-green">>>>print (m)</p>
+                                        <p>5</p>
+                                        <p class="cl-gray"># z es de tipo int y con la función redondeo es 2</p>
+                                        <p class="cl-green">>>> z = round(m/2) </p>
+                                        <p class="cl-green">>>> print(z)</p>
+                                        <p>2</p>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <p>También se pueden representar los números enteros en formato binario, octal o hexadecimal.</p>
+                                    <div class="list">
+                                        <div class="list__item">
+                                            <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                                        </div>
+                                        <div class="list__txt">
+                                            <p>Para crear un número entero en binario, se antepone 0b a una secuencia de dígitos 0 y 1.</p>
+                                        </div>
+                                    </div>
+                                    <div class="list">
+                                        <div class="list__item">
+                                            <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                                        </div>
+                                        <div class="list__txt">
+                                            <p>Para crear un número entero en octal, se antepone 0o a una secuencia de dígitos del 0 al 7.</p>
+                                        </div>
+                                    </div>
+                                    <div class="list">
+                                        <div class="list__item">
+                                            <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                                        </div>
+                                        <div class="list__txt">
+                                            <p>Para crear un número entero en hexadecimal, se antepone 0x a una secuencia de dígitos del 0 al 9 y de la A la F.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 my-4">
+                                    <div class="console">
+                                        <p>Ejemplo</p>
+                                        <p class="cl-green">>>> decimal = 8</p>
+                                        <p class="cl-green">>>> binario = 0b1101</p>
+                                        <p class="cl-green">>>> octal = 0o11</p>
+                                        <p class="cl-green">>>> hexadecimal = 0xc</p>
+                                        <p class="cl-green">>>> print(decimal)</p>
+                                        <p>8</p>
+                                        <p class="cl-green">>>> print(binario)</p>
+                                        <p>13</p>
+                                        <p class="cl-green">>>> print(octal)</p>
+                                        <p>9</p>
+                                        <p class="cl-green">>>> print(hexadecimal)</p>
+                                        <p>12 </p>
+                                    </div>
+                                </div>
+                                <div class="hr-divider my-5"></div>
+                                <div class="list mt-5">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_duoble_chevron.svg" alt="" /></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <h3>Números de punto flotante</h3>
+                                        <p>Se denominan <strong><i>float</i></strong>. Se usa el tipo <strong><i>float</i></strong> para representar cualquier número real que represente valores de temperaturas, velocidades, estaturas y otras. </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 my-4">
+                                    <div class="console">
+                                        <p class="cl-gray"># Ejemplo </p>
+                                        <p class="cl-green">>>> real = 1.1 + 2.2 <span class="inline_comment"># real es un float</span></p>
+                                        <p class="cl-green">>>> print(real)</p>
+                                        <p>3.3000000000000003 <span class="inline_comment"># representación aproximada de 3.3</span> </p>
+                                        <p class="cl-green">>>> print(round(real,1))</p>
+                                        <p>3.3 <span class="inline_comment"># real mostrando únicamente 1 cifra decimal</span> </p>
+                                    </div>
+                                </div>
+                                <div class="hr-divider my-5"></div>
+                                <div class="list mt-5">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_duoble_chevron.svg" alt="" /></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <h3>Números complejos</h3>
+                                        <p>Este tipo de datos en Python se denomina <strong><i>complex</i></strong>.</p>
+                                        <p>Los números complejos tienen una parte real y otra imaginaria y cada una de ellas se representa como un <strong><i>float</i></strong>. Los números imaginarios son múltiplos de la unidad imaginaria (la raíz cuadrada de -1). </p>
+                                        <div class="list">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p>Para definir un número complejo, se hace así:</p>
+                                                <div class="row">
+                                                    <div class="col-auto">
+                                                        <div class="jumbotron mb-0">
+                                                            <p class="mb-0"><strong>&lt;parte_real&gt; + &lt;parte_imaginaria&gt; j</strong> </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p class="mt-4"><strong>Ejemplo:</strong> 4 + 7j</p>
+                                            </div>
+                                        </div>
+                                        <div class="list">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p>Para acceder a la parte real se usa el atributo real.</p>
+                                            </div>
+                                        </div>
+                                        <div class="list">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p>Para acceder a la parte imaginaria se usa el atributo <i>imag</i>.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 my-4">
+                                    <div class="console">
+                                        <p class="cl-gray"># Ejemplo </p>
+                                        <p class="cl-green">>>> complejo = 5+3j</p>
+                                        <p class="cl-green">>>> complejo.real</p>
+                                        <p>5.0 </p>
+                                        <p class="cl-green">>>> complejo.imag</p>
+                                        <p class="mb-0">3.0</p>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <p class="text-center">Para tener acceso a los equivalentes complejos del módulo math, se debe usar cmath.</p>
+                                </div>
+                                <div class="hr-divider my-5"></div>
+                                <div class="list mt-5">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_duoble_chevron.svg" alt="" /></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <h3>Aritmética de los tipos numéricos</h3>
+                                        <p>Para todos los tipos numéricos se pueden aplicar las operaciones: suma, resta, producto o división. Para exponentes se usa ** y para la división entera se usa //.</p>
+                                        <p>Se permite realizar una operación aritmética con números de distinto tipo. En este caso, el tipo numérico “más pequeño” se convierte al del tipo “más grande”, de forma que el tipo del resultado siempre es el del tipo mayor. </p>
+                                        <div class="list">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p>El tipo int es menor que el tipo float, el tipo float es menor que el tipo complex.</p>
+                                            </div>
+                                        </div>
+                                        <div class="list">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p>Si vamos a sumar un int y un float, el resultado es un float.</p>
+                                            </div>
+                                        </div>
+                                        <div class="list">
+                                            <div class="list__item">
+                                                <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                                            </div>
+                                            <div class="list__txt">
+                                                <p>Si vamos a sumar un int y un complex, el resultado es un complex.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 my-4">
+                                    <div class="console">
+                                        <p class="cl-gray"># Ejemplo </p>
+                                        <p class="cl-green">>>> x = 2</p>
+                                        <p class="cl-green">>>> a = x**3 <span class="inline_comment"># a es 8 elevado a la 3</span></p>
+                                        <p class="cl-green">>>>print(a)</p>
+                                        <p>8</p>
+                                        <p class="cl-green">>>> b = 31</p>
+                                        <p class="cl-green">>>> c = b//4 <span class="inline_comment"># c es la parte entera de dividir b entre 4</span> </p>
+                                        <p class="cl-green">>>> print(c)</p>
+                                        <p>7</p>
+                                        <p class="cl-green">>>> g = 31.0</p>
+                                        <p class="cl-green">>>> h = d/4 <span class="inline_comment"># h es la parte entera de dividir g entre 4</span> </p>
+                                        <p class="cl-green">>>>print(h)</p>
+                                        <p>7.0</p>
+                                        <p class="cl-green">>>> 1 + 2.0</p>
+                                        <p>3.0</p>
+                                        <p class="cl-green">>>> 2+3j + 5.7</p>
+                                        <p class="mb-0">(7.7+3j) </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hr-divider my-5"></div>
+        <div class="jumbotron img_texture">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="jumbotron bg-white">
+                        <div class="list">
+                            <div class="list__item">
+                                <div class="list__item__bulletNumber"><span>B</span></div>
+                            </div>
+                            <div class="list__txt">
+                                <h3>Datos numéricos</h3>
+                                <p>En Python se representan los valores booleanos con <strong><i>bool</i></strong>. Esta clase solo se puede instanciar con dos valores: True para verdadero y False para falso.</p>
+                                <p>Una particularidad del lenguaje es que cualquier variable puede ser usada en un contexto donde se requiera comprobar si algo es verdadero o falso. </p>
+                                <p>Los siguientes objetos/instancias son consideradas falsas:</p>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p>None</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p>False</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p>El valor cero de cualquier tipo númerico: 0, 0.0, 0j</p>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p>Secuencias y colecciones vacías: '', (), [], {}, set(), range(0)</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 my-4">
+                                    <div class="console">
+                                        <p class="cl-gray"># Ejemplo </p>
+                                        <p class="cl-green">>>> a = False</p>
+                                        <p class="cl-green">>>> b = True</p>
+                                        <p class="cl-green">>>> Type(a)</p>
+                                        <p class="cl-green">&lt;class &#39; bool &#39; &gt; </p>
+                                        <p class="cl-green">>>> print(a)</p>
+                                        <p>false</p>
+                                        <p class="cl-green">>>> print(b)</p>
+                                        <p>True</p>
+                                        <p class="cl-green">>>> c = None</p>
+                                        <p class="cl-green">>>> print(c)</p>
+                                        <p>None</p>
+                                        <p class="cl-green">>>> type(c) </p>
+                                        <p class="cl-green">&lt;class &#39; NoneType &#39; &gt; </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hr-divider my-5"> </div>
+        <div class="jumbotron img_texture">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="jumbotron bg-white">
+                        <div class="list">
+                            <div class="list__item">
+                                <div class="list__item__bulletNumber"><span>C</span></div>
+                            </div>
+                            <div class="list__txt">
+                                <h3>Datos tipo cadena de caracteres</h3>
+                                <p>Salazar (2019) denomina este tipo de dato como <i>string</i>. Para crear un <i>string</i>, se deben encerrar entre comillas simples o dobles una secuencia de caracteres.</p>
+                                <p>En Python las cadenas de caracteres se representan con <strong><i>str</i></strong>. </p>
+                                <p>Se puede usar comillas simples o dobles. Si en la cadena de caracteres se necesita usar una comilla simple, existen dos opciones: usar comillas dobles para encerrar el <i>string</i>, o bien, usar comillas simples, pero anteponer el carácter \ a la comilla simple del interior de la cadena. </p>
+                                <div class="col-12 my-4">
+                                    <div class="console">
+                                        <p class="cl-gray"># Ejemplo </p>
+                                        <p class="cl-green">>>> saludo1 = 'Hola "María"'</p>
+                                        <p class="cl-green">>>> type(saludo1) </p>
+                                        <p class="cl-green">&lt;class &#39; str &#39; &gt; </p>
+                                        <p class="cl-green">>>> saludo2 = 'Hola \'María\' '</p>
+                                        <p class="cl-green">>>> saludo3 = "Hola 'María' "</p>
+                                        <p class="cl-green">>>> print(saludo1)</p>
+                                        <p>Hola "María"</p>
+                                        <p class="cl-green">>>> print(saludo3)</p>
+                                        <p class="mb-0">Hola 'María'</p>
+                                    </div>
+                                </div>
+                                <p>A diferencia de otros lenguajes, en Python no existe el tipo «caracter». Pero se puede simular con un <i>string</i> de un solo caracter:</p>
+                                <div class="col-12 my-4">
+                                    <div class="console">
+                                        <p class="cl-gray"># Ejemplo </p>
+                                        <p class="cl-green">>>> caracter1 = 'z'</p>
+                                        <p class="cl-green">>>> print(caracter1) </p>
+                                        <p class="mb-0">z</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hr-divider my-5"></div>
+        <div class="jumbotron img_texture">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="jumbotron bg-white">
+                        <div class="list">
+                            <div class="list__item">
+                                <div class="list__item__bulletNumber"><span>D</span></div>
+                            </div>
+                            <div class="list__txt">
+                                <h3>Otros tipos de datos</h3>
+                                <p>Adicional a los tipos básicos, se encuentran otros tipos fundamentales de Python denominados secuencias <i>(list y tuple)</i>, los conjuntos <i>(set)</i> y los mapas <i>(dict)</i>. </p>
+                                <p class="mb-5">Pérez (2016) aclara que todos ellos son tipos de datos compuestos y se utilizan para agrupar valores del mismo o diferente tipo.</p>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p><strong>Las listas</strong> son arreglos unidimensionales de elementos donde podemos ingresar cualquier tipo de dato, para acceder a estos datos debemos usar un índice. La posición inicial es la posición 0.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 my-4">
+                                    <div class="console">
+                                        <p class="cl-gray"># Ejemplo </p>
+                                        <p class="cl-green">>>> lista = [3, 4.2, 'SENA', [8,9] ,5] <span class="inline_comment"># lista contiene int, real, cadena, list, int</span> </p>
+                                        <p class="cl-green">>>> print lista[0] <span class="inline_comment"># la posición 0 de la lista contiene el valor 3</span> </p>
+                                        <p class="cl-green">>>> print lista[1] <span class="inline_comment"># la posición 1 de la lista contiene el valor 4.2</span> </p>
+                                        <p class="cl-green">>>> print lista[2] <span class="inline_comment"># la posición 2 de la lista contiene la cadena 'SENA'</span> </p>
+                                        <p class="cl-green">>>> print lista[3] <span class="inline_comment"># la posición 3 de la lista contiene la lista &lsqb;8,9&rsqb;</span> </p>
+                                        <p class="cl-green">>>> print lista[4] <span class="inline_comment"># la posición 4 de la lista contiene el valor 5</span> </p>
+                                        <p class="cl-green">>>> print lista[3][0] <span class="inline_comment"># la posición 3,0 de la lista contiene 8</span> </p>
+                                        <p class="cl-green">>>> print lista[3][1] <span class="inline_comment"># la posición 3,1 de la lista contiene 9</span> </p>
+                                        <p class="cl-green">>>> print lista[1:3] <span class="inline_comment"># las posiciones de la 1 a la 3 contienen &lsqb;4.2, 'SENA'&rsqb;</span> </p>
+                                        <p class="cl-green">>>> print lista[1:4] <span class="inline_comment"># las posiciones de la 1 a la 4 contienen &lsqb;4.2, 'SENA', &lsqb;8, 9&rsqb;</span> </p>
+                                        <p class="cl-green">>>> print lista[1:5] <span class="inline_comment"># las posiciones de la 1 a la 5 contienen &lsqb;4.2, 'SENA', &lsqb;8, 9 &rsqb;,5 &rsqb;</span> </p>
+                                    </div>
+                                </div>
+                                <div class="hr-divider my-5"></div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p><strong>Las tuplas</strong> se representan escribiendo los elementos entre paréntesis y separados por comas. La función len() devuelve el número de elementos de una tupla. Una tupla puede no contener ningún elemento, es decir, puede ser una tupla vacía. Una tupla puede incluir un único elemento seguido de una coma.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 my-4">
+                                    <div class="console">
+                                        <p class="cl-gray"># Ejemplo </p>
+                                        <p class="cl-green">>>> tupla= (8, "b", 4.91) </p>
+                                        <p class="cl-green">>>> tupla </p>
+                                        <p>(8, 'b', 4.91)</p>
+                                        <p class="cl-green">>>> len(tupla)</p>
+                                        <p>3</p>
+                                        <p class="cl-green">>>> len(())</p>
+                                        <p>0</p>
+                                        <p class="cl-green">>>> (3,)</p>
+                                        <p>(3,)</p>
+                                        <p class="cl-green">>>> len((3,))</p>
+                                        <p>1</p>
+                                    </div>
+                                </div>
+                                <div class="hr-divider my-5"></div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p><strong>Los conjuntos</strong> son una colección no ordenada y sin elementos repetidos. Se definen con la palabra set, seguida de llaves que contienen los elementos separados por comas. Si se desea remover un elemento de un conjunto, se puede usar el método <i>remove()</i>.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 my-4">
+                                    <div class="console">
+                                        <p class="cl-gray"># Ejemplo </p>
+                                        <p class="cl-green">>>> frutas = set([ 'mango', 'pera', 'manzana', 'limón' ]) </p>
+                                        <p class="cl-green">>>> frutas </p>
+                                        <p>{'mango', 'manzana', 'pera', 'limón'}</p>
+                                        <p class="cl-green">>>> frutas.remove('manzana')</p>
+                                        <p class="cl-green">>>> frutas</p>
+                                        <p>{'mango', 'pera', 'limón'}</p>
+                                    </div>
+                                </div>
+                                <div class="hr-divider my-5"></div>
+                                <div class="list">
+                                    <div class="list__item">
+                                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                                    </div>
+                                    <div class="list__txt">
+                                        <p><strong>Los diccionarios</strong> son un tipo de estructuras de datos que permiten guardar un conjunto no ordenado de pares clave-valor, existiendo las claves únicas dentro de un mismo diccionario (es decir, que no pueden tener dos elementos con una misma clave). El diccionario se declara entre los caracteres '{ }' y los elementos se separan por comas (','). </p>
+                                        <p>Los diccionarios denominados <strong><i>dict</i></strong> para Python, son estructuras de datos muy extendidos en otros lenguajes de programación, aunque en otros lenguajes como java se les denominan con distintos nombres como <i>"Map"</i>.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 my-4">
+                                    <div class="console">
+                                        <p class="cl-gray"># Ejemplo </p>
+                                        <p class="cl-gray"># Defino la variable 'futbolistas' como un diccionario. </p>
+                                        <p class="cl-green">futbolistas = dict()</p>
+                                        <p class="cl-green mb-0">futbolistas = {</p>
+                                        <p class="cl-green mb-0">13 : "Mina", 21 : "Lucumi",</p>
+                                        <p class="cl-green mb-0">17 : "Fabra", 11 : "Cuadrado",</p>
+                                        <p class="cl-green mb-0">9 : "Falcao", 19 : "Muriel",</p>
+                                        <p class="cl-green mb-0">15 : "Uribe", 10 : "James Rodriguez",</p>
+                                        <p class="cl-green mb-0">16 : "Lerma", 5 : "Wilmar Barrios",</p>
+                                        <p class="cl-green mb-0">3 : "Murillo"</p>
+                                        <p class="cl-green mb-0">}</p>
+                                        <p class="cl-green">>>> futbolistas</p>
+                                        <p>{13: 'Mina', 21: 'Lucumi', 17: 'Fabra', 11: 'Cuadrado', 9: 'Falcao', 19: 'Muriel', 15: 'Uribe', 10: 'James Rodriguez', 16: 'Lerma', 5: 'Wilmar Barrios', 3: 'Murillo'}</p>
+                                        <p class="cl-green">>>> futbolistas[9]</p>
+                                        <p class="mb-0">'Falcao' </p>
+                                    </div>
+                                </div>
+                                <div class="col-12 my-4">
+                                    <p class="mb-5">Ejemplo completo de listas, tupla, conjunto y diccionario:</p>
+                                    <div class="console">
+                                        <p class="cl-gray"># Ejemplo </p>
+                                        <p class="cl-green">>>> lista = [1, 2, 3, 8, 9]</p>
+                                        <p class="cl-green">>>> tupla = (1, 4, 8, 0, 5)</p>
+                                        <p class="cl-green">>>> n=len(tupla)</p>
+                                        <p class="cl-green">>>> conjunto = set([1, 3, 1, 4])</p>
+                                        <p class="cl-green">>>> diccionario = {'a': 1, 'b': 3, 'z': 8}</p>
+                                        <p class="cl-green">>>> print(lista)</p>
+                                        <p>[1, 2, 3, 8, 9]</p>
+                                        <p class="cl-green">>>> print(tupla)</p>
+                                        <p>(1, 4, 8, 0, 5)</p>
+                                        <p class="cl-green">>>> print(“Longitud de la tupla= “,n)</p>
+                                        <p>Longitud de la tupla= 5</p>
+                                        <p class="cl-green">>>> print(conjunto)</p>
+                                        <p>{1, 3, 4}</p>
+                                        <p class="cl-green">>>> print(diccionario)</p>
+                                        <p>{'a': 1, 'b': 3, 'z': 8}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron bg-white">
+        <div class="row">
+            <div class="col-12">
+                <div class="header-ecored mt-3" id="tema2_2">
+                    <h2>2.2 Identificar el tipo de variable </h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p class="mb-5">Guzdial (2013) afirma que existen dos funciones en Python para determinar el tipo de dato que contiene una variable: type() e isinstance():</p>
+                <div class="row">
+                    <div class="col-auto">
+                        <div class="jumbotron">
+                            <p class="mb-2"><strong><i>type()</i></strong></p>
+                            <p class="mb-0">Recibe como parámetro un objeto y devuelve el tipo del mismo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-auto">
+                        <div class="jumbotron mb-0">
+                            <p class="mb-2"><strong><i>isinstance()</i></strong></p>
+                            <p class="mb-0">Recibe dos parámetros: un objeto y un tipo. Devuelve True si el objeto es del tipo que se pasa como parámetro y False en caso contrario.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 my-4">
+                <div class="console">
+                    <p class="cl-gray"># Ejemplo</p>
+                    <p class="cl-green">>>> type(5)</p>
+                    <p class="cl-green">&lt;class 'int'&gt;</p>
+                    <p class="cl-green">>>> type(3.14)</p>
+                    <p class="cl-green">&lt;class 'float'&gt; </p>
+                    <p class="cl-green">>>> type('Hola mundo')</p>
+                    <p class="cl-green">&lt;class 'str'&gt; </p>
+                    <p class="cl-green">>>> isinstance(7, float) </p>
+                    <p>False</p>
+                    <p class="cl-green">>>> isinstance(8, int)</p>
+                    <p>True</p>
+                    <p class="cl-green">>>> isinstance(2, bool)</p>
+                    <p>False</p>
+                    <p class="cl-green">>>> isinstance(False, bool)</p>
+                    <p>True</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron bg-white">
+        <div class="row">
+            <div class="col-12">
+                <div class="header-ecored mt-3" id="tema2_3">
+                    <h2>2.3 Conversión de tipos de datos </h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p class="mb-5">En algunos casos se requiere convertir el tipo de datos a otro que sea más adecuado. Por ejemplo, si una cadena contiene el valor “10” para poderlo sumar a otra variable tipo entero, se debe convertir la cadena en un dato tipo entero. </p>
+                <p>Según Cuevas (2017), Python ofrece las siguientes funciones:</p>
+                <div class="list">
+                    <div class="list__item">
+                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                    </div>
+                    <div class="list__txt">
+                        <p><strong>str():</strong> devuelve la representación en cadena de caracteres del objeto que se pasa como parámetro.</p>
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="list__item">
+                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                    </div>
+                    <div class="list__txt">
+                        <p><strong>int():</strong> devuelve un int a partir de un número o secuencia de caracteres.</p>
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="list__item">
+                        <div class="list__item__icon"><img src="assets/images/icons/icon_single_chevron.svg" alt="" /></div>
+                    </div>
+                    <div class="list__txt">
+                        <p><strong><i>float():</i></strong> devuelve un <i>float</i> a partir de un número o secuencia de caracteres.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12">
+                <div class="jumbotron">
+                    <div class="row align-items-center">
+                        <div class="col-auto"><img src="assets/images/pages/tema_2/icon_2_01.svg" alt="" style="width:150px" /></div>
+                        <div class="col">
+                            <p class="mb-2"><strong>NOTA</strong></p>
+                            <div class="hr-divider mb-3" style="background-color:#AEBDD3 !important"></div>
+                            <p>Si a las funciones anteriores se les pasa como parámetro un valor inválido, el intérprete mostrará un error.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 my-4">
+                <div class="console">
+                    <p class="cl-gray"># Ejemplo</p>
+                    <p class="cl-green">>>> edad=”25” </p>
+                    <p class="cl-green">>>> edad = int(edad) + 10 <span class="inline_comment"># Convierte edad a int</span> </p>
+                    <p class="cl-green">>>> edad <span class="inline_comment"># edad es un int</span> </p>
+                    <p>35 </p>
+                    <p class="cl-green">>>> edad = str(edad) <span class="inline_comment"># Convierte edad a str</span> </p>
+                    <p class="cl-green">>>> edad <span class="inline_comment"># edad es un str (se muestran las '')</span> </p>
+                    <p>'35' </p>
+                    <p class="cl-green">>>> loat('18.66') <span class="inline_comment"># Convierte un str a float</span> </p>
+                    <p>18.66</p>
+                    <p class="cl-green">>>> float('hola') <span class="inline_comment"># Convierte un str a float (pero no es válido)</span> </p>
+                    <p>Traceback (most recent call last):</p>
+                    <p>File &ldquo;&lt;input&gt;&rdquo; , line 1, in &lt;module&gt;</p>
+                    <p>ValueError: could not convert string to float: 'hola' </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
