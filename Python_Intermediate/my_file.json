@@ -1,0 +1,12 @@
+{
+  "name": "Andres",
+  "surname": "Marroquin",
+  "age": 20,
+  "languages": [
+    "Python",
+    "Java",
+    "Jaavascript"
+  ],
+  "is_developer": true,
+  "website": "https://portafolio-andres-dev.netlify.app/"
+}

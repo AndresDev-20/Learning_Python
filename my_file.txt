@@ -1,0 +1,6 @@
+Mi nombre es Andres
+Mi apellido es Marroquin
+20 años
+Y mi lenguaje preferido es Python
+Aunque también me gusta JavaScript
+Y Java
