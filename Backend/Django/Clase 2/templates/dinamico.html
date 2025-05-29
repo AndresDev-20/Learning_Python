@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dinamico</title>
+</head>
+
+<body>
+    {# podemos ver aca como pintamos el nombre por parametro que nos llega y como vemos asi se hacen los comentarios de una sola linea#}
+    <h1>Soy {{ name }} desarrollador full-stack</h1>
+    <h2>Domino los siguintes lenguaje:</h2>
+    <ol>
+        {% comment %}
+        Esto es un comentario de múltiples líneas.
+        Puedes escribir todo lo que quieras aquí adentro.
+        A continuacion vemos un for para pintar información.
+        {% endcomment %}
+
+        {% for languaje in languajes %}
+        {% if languaje == "JavaScript" %}
+        <li><strong>{{ languaje }}</strong></li>
+        {% else %}
+        <li>{{ languaje|upper }}</li>
+        {% endif %}
+        {% endfor %}
+    </ol>
+</body>
+
+</html>
