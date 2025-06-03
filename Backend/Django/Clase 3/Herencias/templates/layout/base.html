@@ -1,0 +1,32 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Mi sitio web{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <a href="{% url 'home' %}">Inicio</a> |
+        <a href="{% url 'about' %}">Sobre mí</a> |
+        <a href="{% url 'contactame' %}">Contacto</a>
+    </nav>
+
+    <hr>
+
+    <!-- Contenido dinámico -->
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Mi sitio web | Andres.dev</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{% extends 'layout/base.html' %}
+
+{% block title %}Conatanctame{% endblock %}
+
+{% block content %}
+<h1>Formulario de Contacto</h1>
+<form >
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" required>  
+    <br><br>
+    <label for="email">Correo Electrónico:</label>
+    <input type="text" id="name" name="name" required>  
+    <br><br>
+    <label for="message">Mensaje:</label>   
+    <textarea id="message" name="message" required></textarea>
+    <br><br>
+    <button> Enviar </button>
+</form>
+{% endblock %}
