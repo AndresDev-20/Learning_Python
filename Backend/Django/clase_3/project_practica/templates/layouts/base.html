@@ -9,14 +9,10 @@
     <title>{% block title %}{% endblock %}</title>
   </head>
   <body>
-    <header>
-        {% include "layouts/partials/menu.html" %}
-    </header>
+    <header>{% include "layouts/partials/menu.html" %}</header>
 
     <main>{% block content %} {% endblock %}</main>
 
-    <footer>
-      {% include "layouts/partials/footer.html" %}
-    </footer>
-  </body> 
+    <footer>{% include "layouts/partials/footer.html" %}</footer>
+  </body>
 </html>

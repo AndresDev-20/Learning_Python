@@ -1,11 +1,11 @@
 {% load static %}
 
 <nav>
-    <figure>
-        <img src="{% static 'img/Logo.png' %}" alt="Logo">
-    </figure>
-    <ul>
-        <li><a href="{% url 'home' %}">Home</a></li>
-        <li><a href="">About</a></li>
-    </ul>
+  <figure>
+    <img src="{% static 'img/Logo.png' %}" alt="Logo" />
+  </figure>
+  <ul>
+    <li><a href="{% url 'home' %}">Home</a></li>
+    <li><a href="{% url 'about' %}">About</a></li>
+  </ul>
 </nav>
