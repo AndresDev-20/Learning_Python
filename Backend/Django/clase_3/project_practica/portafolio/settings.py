@@ -54,7 +54,7 @@ ROOT_URLCONF = 'portafolio.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],
+        'DIRS': ['templates'], # Ajuste para buscar plantillas en el directorio 'templates'
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -116,7 +116,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-STATICFILES_DIRS = [
+STATICFILES_DIRS = [ # Ajuste para buscar archivos estáticos en el directorio 'static'
     BASE_DIR / 'static',
 ]
 
