@@ -10,3 +10,4 @@ urlpatterns = [
     # Parametros por la url
     path('adulto/<int:edad>/', views.adulto, name="adulto")
 ]
+
