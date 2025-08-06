@@ -22,4 +22,13 @@ def list_users(request):
     # Obtener 5 elementos saltando los primeros 5
     skipped_users = User.objects.all()[5:10]
 
+    # Obtener todos los elementos por orden de email
+    ordered_users = User.objects.all().order_by('email')
+
+    # Obtener todos los elementos cuyo id sea menor o igual a 15 
+    filtered_by_id = User.objects.filter(id__lte=15)
+    
+    # Obtener todos los usuarios que contengan yes en su nombre
+    filtered_by_name = User.objects.filter(name__icontains='yes')
+
     return render(request, 'social/users.html', {'users': users, 'filtered': filtered, 'userId': user, 'first_five_users': first_five_users, 'skipped_users': skipped_users})
