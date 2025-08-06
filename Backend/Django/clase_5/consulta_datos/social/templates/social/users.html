@@ -116,5 +116,60 @@
         {% endfor %}
     </table>
 
+    <h1 class="user-list-title">Ordenar usuarios por email</h1> 
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+        </tr>
+        {% for user in ordered_users %}
+        <tr>
+            <td>{{ user.id }}</td>
+            <td>{{ user.name }}</td>
+            <td>{{ user.age }}</td>
+            <td>{{ user.email }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <h1 class="user-list-title">Obtener todos los elementos cuyo id sea menor o igual a 15</h1> 
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+        </tr>
+        {% for user in filtered_by_id %}
+        <tr>
+            <td>{{ user.id }}</td>
+            <td>{{ user.name }}</td>
+            <td>{{ user.age }}</td>
+            <td>{{ user.email }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <h1 class="user-list-title">Obtener todos los usuarios que contengan "yes" en su nombre</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+        </tr>
+        {% for user in filtered_by_name %}
+        <tr>
+            <td>{{ user.id }}</td>
+            <td>{{ user.name }}</td>
+            <td>{{ user.age }}</td>
+            <td>{{ user.email }}</td>
+        </tr>
+        {% endfor %}
+
+    
+
 </body>
 </html>
