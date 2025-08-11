@@ -36,3 +36,14 @@ def list_users(request):
                    'first_five_users': first_five_users, 
                    'skipped_users': skipped_users, 'ordered_users': ordered_users,
                    'filtered_by_id': filtered_by_id, 'filtered_by_name': filtered_by_name})
+
+
+
+# Actualizacion de un usuario
+def user_update(request, user_id):
+    user = User.objects.get(id=user_id)
+    user.name = "Yeison Andres Marroquin"
+    user.age = 20
+    user.email = "andres.dev@gmail.com"
+    user.save()
+    return HttpResponse(f"User {user_id} updated successfully.")
