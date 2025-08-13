@@ -1,5 +1,6 @@
-<form action="{% url 'goals' %}" method="GET" >
-    <h3>Formulario de contacto</h3>
+<form action="{% url 'addusers' %}" method="POST" >
+    {% csrf_token %}
+    <h3>Formulario de contacto con POST</h3>
     <label for="name">Nombre:</label>
     <input type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
     <br>
