@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from .forms import EmployeeForm
+from .models import Employee
 
 # Create your views here.
 def index(request):
@@ -11,7 +12,7 @@ def index(request):
             return redirect('employee_success')
     else:
         form = EmployeeForm()
-    return render(request, 'index.html', {'form': form})
+    return render(request, 'index.html', {'form': form, 'employees': Employee.objects.all()})
 
 
 def success(request):
