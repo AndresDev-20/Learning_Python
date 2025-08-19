@@ -8,5 +8,11 @@
 <body>
     <h1>Employee Index</h1>
     <p>Hello, this is the employee index.</p>
+    <hr>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Submit</button>
+    </form>
 </body>
 </html>
