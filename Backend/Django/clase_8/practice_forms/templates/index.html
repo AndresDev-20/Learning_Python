@@ -13,5 +13,12 @@
         {{ form.as_p }}
         <button type="submit">Submit</button>
     </form>
+
+    <h2>Product List</h2>
+    <ul>
+        {% for product in products %}
+            <li>{{ product.name }} - {{ product.price }}</li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
