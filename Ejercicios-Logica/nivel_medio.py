@@ -3,3 +3,9 @@
 #  - Un Anagrama consiste en formar una palabra reordenando TODAS las letras de otra palabra inicial.
 #  - NO hace falta comprobar que ambas palabras existan.
 #  - Dos palabras exactamente iguales no son anagrama.
+
+def anagram(world):
+    arr = world
+    print(arr)
+
+anagram("oso");
