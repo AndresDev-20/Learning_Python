@@ -4,8 +4,13 @@
 #  - NO hace falta comprobar que ambas palabras existan.
 #  - Dos palabras exactamente iguales no son anagrama.
 
-def anagram(world):
-    arr = world
-    print(arr)
+def anagram(w1, w2):
+    t1 = w1.upper().replace(" ", "")
+    t2 = w2.upper().replace(" ", "")
+    if t1 == t2 : return False
+    if sorted(t1) == sorted(t2):
+        return True
+    return False
+    
 
-anagram("oso");
+print(anagram("Oso", "Soo"));
